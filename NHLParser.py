@@ -31,11 +31,13 @@ def parser(content, data):
             else:
                 year = i.strip()
                 year = year.decode('unicode_escape').encode('ascii', 'replace')
+                if( '???' not in year and '-' not in year):
+                    winningTeams[year] = teamName
                 while('???' in year or '-' in year):
                     years = parseYears(year)
                     year = ''
                     prefix = years[0][:2]
-                    for index, val in enumerate(years[0:]):
+                    for index, val in enumerate(years):
                         if('???' in val or '-' in val):
                             year = val
                             continue
