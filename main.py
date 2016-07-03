@@ -5,27 +5,38 @@ data = NHLParser.parse_to_json("NHL_Winners.csv", "NHL_Winners.json")
 
 rosters = {}
 links = []
-teams = []
+teams = {}
+nodes = []
 
 for playerData in data:
+
     for year, team in playerData['wins'].iteritems():
-        if(year not in rosters.keys()):
-            rosters[year] = [playerData['id']]
+        if( team not in teams.keys() ):
+            teams[team] = {
+                'wins': {
+                    year: []
+                },
+                'winCount': 1,
+                'name': team
+            }
         else:
-            players = rosters[year]
-            players.extend([playerData['id']])
-            rosters[year] = players
-
-for year, players in rosters.iteritems():
-    src = players[0]
-    for player in players[1:]:
-        entry = {'source': src, 'target': player, 'year': year}
-        links.extend([entry])
+            if( year not in teams[team]['wins'] ):
+                #add year to wins
+                teams[team]['wins'][year] = []
+                teams[team]['winCount'] = teams[team]['winCount'] + 1
 
 
+    #then build adjacency matrix with those indices
+
+    #then build links from that matrix and fill in rosters in team nodes
+
+for key, value in teams.iteritems():
+    nodes.append(value)
+
+nodes.extend(data)
 
 output = {
-    'players': data,
+    'nodes': nodes,
     'links': links
 }
 
