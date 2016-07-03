@@ -4,7 +4,11 @@ import json
 data = NHLParser.parse_to_json("NHL_Winners.csv", "NHL_Winners.json")
 nodes = NHLParser.buildNodes(data)
 
-links = NHLParser.buildLinks(nodes)
+matrix = NHLParser.buildAdjacencyMatrix(nodes)
+
+NHLParser.updateTeamNodes(nodes, matrix)
+
+links = NHLParser.buildLinks(matrix)
 
 output = {
     'nodes': nodes,

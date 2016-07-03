@@ -1,8 +1,13 @@
 import itertools
 import json
 
-def buildLinks(nodes):
-    return []
+
+def buildAdjacencyMatrix(nodes):
+    pass
+
+def buildLinks(matrix):
+    output = []
+    return output
 
 def buildNodes(data):
     nodes = []
@@ -90,3 +95,7 @@ def parseYears(year):
     if(splitter is not ''):
         output = year.split(splitter)
     return output
+
+
+def updateTeamNodes(nodes, matrix):
+    return None
