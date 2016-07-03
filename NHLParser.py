@@ -21,8 +21,7 @@ def parser(content, data):
         player = {}
         alternator = 'T'
         pd = line.split(',')
-        player['last'] = pd[0].strip()
-        player['first'] = pd[1].strip()
+        player['name'] = pd[1].strip() + ' ' + pd[0].strip()
         winningTeams = {}
         teamName = ''
         for i in itertools.islice(pd, 2, len(pd) - 1):
