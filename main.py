@@ -4,8 +4,7 @@ import json
 data = NHLParser.parse_to_json("NHL_Winners.csv", "NHL_Winners.json")
 nodes = NHLParser.buildNodes(data)
 
-rosters = {}
-links = []
+links = NHLParser.buildLinks(nodes)
 
 output = {
     'nodes': nodes,

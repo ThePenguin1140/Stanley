@@ -1,6 +1,9 @@
 import itertools
 import json
 
+def buildLinks(nodes):
+    return []
+
 def buildNodes(data):
     nodes = []
     teams = {}
