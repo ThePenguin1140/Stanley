@@ -1,6 +1,33 @@
 import itertools
 import json
 
+def buildNodes(data):
+    nodes = []
+    teams = {}
+    for playerData in data:
+        for year, team in playerData['wins'].iteritems():
+            if( team not in teams.keys() ):
+                teams[team] = {
+                    'wins': {
+                        year: []
+                    },
+                    'winCount': 1,
+                    'name': team,
+                    'nodeType': 'team'
+                }
+            else:
+                if( year not in teams[team]['wins'] ):
+                    #add year to wins
+                    teams[team]['wins'][year] = []
+                    teams[team]['winCount'] = teams[team]['winCount'] + 1
+
+    for key, value in teams.iteritems():
+        nodes.append(value)
+
+    nodes.extend(data)
+
+    return nodes
+
 def parse_to_json(csv, outFile):
     df = []
     parse(csv, df)
@@ -47,6 +74,7 @@ def parser(content, data):
                 alternator = 'T'
         player['wins'] = winningTeams
         player['winCount'] = pd[len(pd) - 1].strip().replace('{','').replace('}', '')
+        player['nodeType'] = 'player'
         data.extend([player])
 
 def parseYears(year):
