@@ -7,6 +7,18 @@ def buildAdjacencyMatrix(nodes):
 
 def buildLinks(matrix):
     output = []
+    #key is id of team in nodes
+    #value is the years the teams won
+    for team, winningYears in matrix.iteritems():
+        #key is the id of the
+        for year, roster in winningYears.iteritems():
+            for player in roster:
+                link = {
+                    'target': player,
+                    'source': team,
+                    'value': year
+                }
+                output.append(link)
     return output
 
 def buildNodes(data):
