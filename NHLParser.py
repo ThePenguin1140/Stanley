@@ -2,23 +2,41 @@ import itertools
 import json
 
 
-def buildAdjacencyMatrix(nodes):
-    pass
+def buildTeamRosters(nodes):
+    winningYears = {}
+    for index, value in enumerate(nodes):
+        if(value['nodeType'] is 'player'):
+            #add player to each roster
+            for year, team in value['wins'].iteritems():
+                if(year not in winningYears.keys()):
+                    winningYears[year] = [index]
+                else:
+                    winningYears[year].extend([index])
 
-def buildLinks(matrix):
+
+
+    for index, value in enumerate(nodes):
+        if(value['nodeType'] is 'team'):
+            #collect the winning years
+            teamYears = {}
+            for year, roster in value['wins'].iteritems():
+                nodes[index]['wins'][year] = winningYears[year]
+
+    return nodes
+
+def buildLinks(nodes):
     output = []
-    #key is id of team in nodes
-    #value is the years the teams won
-    for team, winningYears in matrix.iteritems():
-        #key is the id of the
-        for year, roster in winningYears.iteritems():
-            for player in roster:
-                link = {
-                    'target': player,
-                    'source': team,
-                    'value': year
-                }
-                output.append(link)
+    for index, value in enumerate(nodes):
+        if(value['nodeType'] is 'team'):
+            for year, roster in value['wins'].iteritems():
+                for player in roster:
+                    link = {
+                        'target': player,
+                        'source': index,
+                        'value': year
+                    }
+                    output.append(link)
+
     return output
 
 def buildNodes(data):
