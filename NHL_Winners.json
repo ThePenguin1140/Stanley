@@ -1,6 +1,9 @@
 [
     {
-        "wins": {}, 
+        "wins": {
+            "1928": "New York Rangers", 
+            "1934": "Chicago Black Hawks"
+        }, 
         "name": "Clarence Abel", 
         "winCount": "2"
     }, 
@@ -14,47 +17,67 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1899": "Montreal Victorias"
+        }, 
         "name": "Douglas Acer", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1988": "Edmonton Oilers"
+        }, 
         "name": "Keith Acton", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2009": "Pittsburgh Penguins", 
+            "2006": "Carolina Hurricanes"
+        }, 
         "name": "Craig Adams", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1918": "Toronto Arenas", 
+            "1927": "Ottawa Senators"
+        }, 
         "name": "Jack Adams", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1970": "Boston Bruins"
+        }, 
         "name": "John M. Adams", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2006": "Carolina Hurricanes"
+        }, 
         "name": "Kevyn Adams", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2001": "Colorado Avalanche"
+        }, 
         "name": "David Aebischer", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2004": "Tampa Bay Lightning"
+        }, 
         "name": "Dmitry Afanasenkov", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1933": "New York Rangers"
+        }, 
         "name": "Andy Aitkenhead", 
         "winCount": "1"
     }, 
@@ -67,17 +90,23 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1905": "Ottawa Senators"
+        }, 
         "name": "Angus Allan", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1954": "Detroit Red Wings"
+        }, 
         "name": "Keith Allen", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1953": "Montreal Canadiens"
+        }, 
         "name": "Doug Anderson", 
         "winCount": "1"
     }, 
@@ -86,24 +115,31 @@
             "1987": "Edmonton Oilers", 
             "1984": "Edmonton Oilers", 
             "1985": "Edmonton Oilers", 
-            "1988": "Edmonton Oilers", 
-            "1990": "Edmonton Oilers"
+            "1994": "New York Rangers", 
+            "1990": "Edmonton Oilers", 
+            "1988": "Edmonton Oilers"
         }, 
         "name": "Glenn Anderson", 
         "winCount": "6"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1925": "Victoria Cougars"
+        }, 
         "name": "John Anderson", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2004": "Tampa Bay Lightning"
+        }, 
         "name": "Dave Andreychuk", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1922": "Toronto St. Pats"
+        }, 
         "name": "Lloyd Andrews", 
         "winCount": "1"
     }, 
@@ -119,18 +155,24 @@
     {
         "wins": {
             "1964": "Toronto Maple Leafs", 
+            "1954": "Detroit Red Wings", 
+            "1961": "Chicago Black Hawks", 
             "1962": "Toronto Maple Leafs"
         }, 
         "name": "Al Arbour", 
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1916": "Montreal Canadiens"
+        }, 
         "name": "Amos Arbour", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1896": "Winnipeg Victorias"
+        }, 
         "name": "Jack Armytage", 
         "winCount": "1"
     }, 
@@ -145,17 +187,23 @@
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2000": "New Jersey Devils"
+        }, 
         "name": "Jason Arnott", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1974": "Philadelphia Flyers"
+        }, 
         "name": "Barry Ashbee", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1933": "New York Rangers"
+        }, 
         "name": "Ossie Asmundson", 
         "winCount": "1"
     }, 
@@ -169,6 +217,7 @@
     }, 
     {
         "wins": {
+            "1976": "Montreal Canadiens", 
             "1972": "Boston Bruins", 
             "1970": "Boston Bruins"
         }, 
@@ -176,17 +225,23 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1950": "Detroit Red Wings"
+        }, 
         "name": "Pete Babando", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2006": "Carolina Hurricanes"
+        }, 
         "name": "Anton Babchuk", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1945": "Toronto Maple Leafs"
+        }, 
         "name": "Pete Backor", 
         "winCount": "1"
     }, 
@@ -211,7 +266,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1932": "Toronto Maple Leafs"
+        }, 
         "name": "Irvine Bailey", 
         "winCount": "1"
     }, 
@@ -225,12 +282,16 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1961": "Chicago Black Hawks"
+        }, 
         "name": "Earl Balfour", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1961": "Chicago Black Hawks"
+        }, 
         "name": "Murray Balfour", 
         "winCount": "1"
     }, 
@@ -285,7 +346,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1964": "Toronto Maple Leafs"
+        }, 
         "name": "Andy Bathgate", 
         "winCount": "1"
     }, 
@@ -308,27 +371,37 @@
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1905": "Ottawa Senators"
+        }, 
         "name": "Billy Bawlf", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1907": "Kenora Thistles"
+        }, 
         "name": "Roxy Beaudro", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2007": "Anaheim Ducks"
+        }, 
         "name": "Francois Beauchemin", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1999": "Dallas Stars"
+        }, 
         "name": "Ed Belfour", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1993": "Montreal Canadiens"
+        }, 
         "name": "Jesse Belanger", 
         "winCount": "1"
     }, 
@@ -349,7 +422,9 @@
         "winCount": "10"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1924": "Montreal Canadiens"
+        }, 
         "name": "Billy Bell", 
         "winCount": "1"
     }, 
@@ -362,7 +437,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1993": "Montreal Canadiens"
+        }, 
         "name": "Brian Bellows", 
         "winCount": "1"
     }, 
@@ -370,18 +447,23 @@
         "wins": {
             "1920": "Ottawa Senators", 
             "1921": "Ottawa Senators", 
-            "1923": "Ottawa Senators"
+            "1923": "Ottawa Senators", 
+            "1926": "Montreal Maroons"
         }, 
         "name": "Clint Benedict", 
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1946": "Montreal Canadiens"
+        }, 
         "name": "Joe Benoit", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1896": "Winnipeg"
+        }, 
         "name": "Robert R. Benson", 
         "winCount": "1"
     }, 
@@ -395,28 +477,37 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1965": "Montreal Canadiens"
+        }, 
         "name": "Gordon Berenson", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2011": "Boston Bruins"
+        }, 
         "name": "Patrice Bergeron-Cleary", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1916": "Montreal Candiens"
+        }, 
         "name": "Louis Berlinquette", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2012": "Los Angeles Kings"
+        }, 
         "name": "Jonathan Bernier", 
         "winCount": "1"
     }, 
     {
         "wins": {
             "1987": "Edmonton Oilers", 
+            "1994": "New York Rangers", 
             "1988": "Edmonton Oilers", 
             "1990": "Edmonton Oilers"
         }, 
@@ -424,7 +515,9 @@
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2003": "New Jersey Devils"
+        }, 
         "name": "Jiri Bicek", 
         "winCount": "1"
     }, 
@@ -441,6 +534,7 @@
         "wins": {
             "1906": "Montreal Wanderers", 
             "1907": "Montreal Wanderers", 
+            "1903": "Montreal AAA", 
             "1908": "Montreal Wanderers", 
             "1910": "Montreal Wanderers"
         }, 
@@ -448,7 +542,9 @@
         "winCount": "5"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1950": "Detroit Red Wings"
+        }, 
         "name": "Steve Black", 
         "winCount": "1"
     }, 
@@ -461,25 +557,32 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1932": "Toronto Maple Leafs"
+        }, 
         "name": "Andy Blair", 
         "winCount": "1"
     }, 
     {
         "wins": {
             "1946": "Montreal Canadiens", 
-            "1944": "Montreal Canadiens"
+            "1944": "Montreal Canadiens", 
+            "1935": "Montreal Maroons"
         }, 
         "name": "Hector Blake", 
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2001": "Colorado Avalanche"
+        }, 
         "name": "Rob Blake", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1935": "Montreal Maroons"
+        }, 
         "name": "Russ Blinco", 
         "winCount": "1"
     }, 
@@ -501,12 +604,16 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1986": "Montreal Candiens"
+        }, 
         "name": "Serge Boisvert", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1970": "Boston Bruins"
+        }, 
         "name": "Ivan Boldirev", 
         "winCount": "1"
     }, 
@@ -519,22 +626,29 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2013": "Chicago Blackhawks"
+        }, 
         "name": "Brandon Bollig", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1951": "Toronto Maple Leafs"
+        }, 
         "name": "Hugh Bolton", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2000": "New Jersey Devils"
+        }, 
         "name": "Brad Bomdardir", 
         "winCount": "1"
     }, 
     {
         "wins": {
+            "1955": "Detroit Red Wings", 
             "1960": "Montreal Canadiens", 
             "1959": "Montreal Canadiens", 
             "1958": "Montreal Canadiens"
@@ -543,7 +657,9 @@
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2016": "Pittsburgh Penguins"
+        }, 
         "name": "Nick Bonino", 
         "winCount": "1"
     }, 
@@ -556,7 +672,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1969": "Montreal Canadiens"
+        }, 
         "name": "Christian Bordeleau", 
         "winCount": "1"
     }, 
@@ -592,12 +710,16 @@
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1924": "Montreal Canadiens"
+        }, 
         "name": "Billy Boucher", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1924": "Montreal Canadiens"
+        }, 
         "name": "Bobby Boucher", 
         "winCount": "1"
     }, 
@@ -620,12 +742,16 @@
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2009": "Pittsburgh Penguins"
+        }, 
         "name": "Philippe Boucher", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1928": "New York Rangers"
+        }, 
         "name": "Leo Bourgeault", 
         "winCount": "1"
     }, 
@@ -648,12 +774,16 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2001": "Colorado Avalanche"
+        }, 
         "name": "Raymond Bourque", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1983": "New York Islanders"
+        }, 
         "name": "Paul Boutilier", 
         "winCount": "1"
     }, 
@@ -668,7 +798,9 @@
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1899": "Montreal Victorias"
+        }, 
         "name": "Russell Bowie", 
         "winCount": "1"
     }, 
@@ -681,22 +813,30 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2011": "Boston Bruins"
+        }, 
         "name": "Johnny Boychuk", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1928": "New York Rangers"
+        }, 
         "name": "Billy Boyd", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2004": "Tampa Bay Lightning"
+        }, 
         "name": "Dan Boyle", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2010": "Chicago Blackhawks"
+        }, 
         "name": "Nick Boynton", 
         "winCount": "1"
     }, 
@@ -709,17 +849,23 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1933": "New York Rangers"
+        }, 
         "name": "Doug Brennan", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1900": "Montreal Shamrocks"
+        }, 
         "name": "John Brennon", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1967": "Toronto Maple Leafs"
+        }, 
         "name": "John Brenneman", 
         "winCount": "1"
     }, 
@@ -741,12 +887,16 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2006": "Carolina Hurricanes"
+        }, 
         "name": "Rod Brind\u2019Amour", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1993": "Montreal Canadiens"
+        }, 
         "name": "Patrice Brisebois", 
         "winCount": "1"
     }, 
@@ -754,7 +904,8 @@
         "wins": {
             "1920": "Ottawa Senators", 
             "1921": "Ottawa Senators", 
-            "1923": "Ottawa Senators"
+            "1923": "Ottawa Senators", 
+            "1926": "Montreal Maroons"
         }, 
         "name": "Harry Broadbent", 
         "winCount": "4"
@@ -788,32 +939,44 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2013": "Chicago Blackhawks"
+        }, 
         "name": "Sheldon Brookbank", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1918": "Toronto Maple Leafs"
+        }, 
         "name": "Arthur Brooks", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1926": "Montral Maroons"
+        }, 
         "name": "Bernie Brophy", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1995": "New Jersey Devils"
+        }, 
         "name": "Neal Broten", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2010": "Chicago Blackhawks"
+        }, 
         "name": "Troy Brouwer", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1943": "Detroit Red Wings"
+        }, 
         "name": "Adam Brown", 
         "winCount": "1"
     }, 
@@ -826,12 +989,16 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1943": "Detroit Red Wings"
+        }, 
         "name": "Connie Brown", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1990": "Edmonton Oilers"
+        }, 
         "name": "Dave Brown", 
         "winCount": "1"
     }, 
@@ -852,7 +1019,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1941": "Boston Bruins"
+        }, 
         "name": "Gordie Bruce", 
         "winCount": "1"
     }, 
@@ -865,12 +1034,16 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2000": "New Jersey Devils"
+        }, 
         "name": "Steve Brule", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1993": "Montreal Canadiens"
+        }, 
         "name": "Benoit Brunet", 
         "winCount": "1"
     }, 
@@ -893,7 +1066,9 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2007": "Anaheim Ducks"
+        }, 
         "name": "Ilya Bryzgalov", 
         "winCount": "1"
     }, 
@@ -914,12 +1089,16 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1986": "Montreal Canadiens"
+        }, 
         "name": "Randy Bucyk", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2010": "Chicago Blackhawks"
+        }, 
         "name": "Adam Burish", 
         "winCount": "1"
     }, 
@@ -932,7 +1111,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2010": "Chicago Blackhawks"
+        }, 
         "name": "Dustin Byfuglien", 
         "winCount": "1"
     }, 
@@ -946,17 +1127,24 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1941": "Boston Bruins", 
+            "1935": "Montreal Maroons"
+        }, 
         "name": "Herb Cain", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1992": "Pittsburgh Penguins"
+        }, 
         "name": "William Callander", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1928": "New York Rangers"
+        }, 
         "name": "Frank Callighen", 
         "winCount": "1"
     }, 
@@ -969,33 +1157,46 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1924": "Montreal Canadiens"
+        }, 
         "name": "Billy Cameron", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1918": "Toronto Arenas", 
+            "1922": "Toronto St. Pats", 
+            "1914": "Toronto Blue Shirts"
+        }, 
         "name": "Harry Cameron", 
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2010": "Chicago Blackhawks"
+        }, 
         "name": "Brian Campbell", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2011": "Boston Bruins"
+        }, 
         "name": "Gregory Campbell", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1896": "Winnipeg Victorias"
+        }, 
         "name": "Colin J. Campbell", 
         "winCount": "1"
     }, 
     {
         "wins": {
             "1986": "Montreal Canadiens", 
+            "1999": "Dallas Stars", 
             "1993": "Montreal Canadiens"
         }, 
         "name": "Guy Carbonneau", 
@@ -1010,22 +1211,30 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1912": "Quebec Bulldogs"
+        }, 
         "name": "George Carey", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1970": "Boston Bruins"
+        }, 
         "name": "Wayne Carleton", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1995": "New Jersey Devils"
+        }, 
         "name": "Bob Jr. Carpenter", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1917": "Seattle Metropolitans"
+        }, 
         "name": "Everard Carpenter", 
         "winCount": "1"
     }, 
@@ -1039,6 +1248,7 @@
     }, 
     {
         "wins": {
+            "1985": "Edmonton Oilers", 
             "1982": "New York Islanders", 
             "1983": "New York Islanders", 
             "1981": "New York Islanders"
@@ -1047,17 +1257,23 @@
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1926": "Montreal Maroons"
+        }, 
         "name": "Frank Carson", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1930": "Montreal Canadiens"
+        }, 
         "name": "Gerry Carson", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1929": "Boston Bruins"
+        }, 
         "name": "Bill Carson", 
         "winCount": "1"
     }, 
@@ -1070,7 +1286,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2007": "Anaheim Ducks"
+        }, 
         "name": "Ryan Carter", 
         "winCount": "1"
     }, 
@@ -1099,7 +1317,10 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1928": "New York Rangers", 
+            "1932": "Toronto Maple Leafs"
+        }, 
         "name": "Lorne Chabot", 
         "winCount": "2"
     }, 
@@ -1112,12 +1333,17 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1999": "Dallas Stars", 
+            "1995": "New Jersey Devils"
+        }, 
         "name": "Shawn Chambers", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2011": "Boston Bruins"
+        }, 
         "name": "Zdeno Chara", 
         "winCount": "1"
     }, 
@@ -1125,6 +1351,7 @@
         "wins": {
             "1977": "Montreal Canadiens", 
             "1976": "Montreal Canadiens", 
+            "1984": "Edmonton Oilers", 
             "1979": "Montreal Canadiens", 
             "1978": "Montreal Canadiens"
         }, 
@@ -1141,6 +1368,7 @@
     }, 
     {
         "wins": {
+            "1986": "Montreal Canadiens", 
             "2002": "Detroit Red Wings", 
             "2008": "Detroit Red Wings"
         }, 
@@ -1156,27 +1384,36 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1995": "New Jersey Devils"
+        }, 
         "name": "Tom Chorske", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1992": "Pittsburgh Penguins"
+        }, 
         "name": "Jeff Chychrun", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2004": "Tampa Bay Lightning"
+        }, 
         "name": "Martin Cibak", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2008": "Detroit Red Wings"
+        }, 
         "name": "Daniel Cleary", 
         "winCount": "1"
     }, 
     {
         "wins": {
+            "1932": "Toronto Maple Leafs", 
             "1923": "Ottawa Senators", 
             "1927": "Ottawa Senators"
         }, 
@@ -1201,14 +1438,17 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1924": "Montreal Canadiens"
+        }, 
         "name": "Ogilivie Cleghorn", 
         "winCount": "1"
     }, 
     {
         "wins": {
             "1920": "Ottawa Senators", 
-            "1921": "Ottawa Senators"
+            "1921": "Ottawa Senators", 
+            "1924": "Montreal Canadiens"
         }, 
         "name": "Sprague Cleghorn", 
         "winCount": "3"
@@ -1230,12 +1470,15 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2004": "Tampa Bay Lightning"
+        }, 
         "name": "Ben Clymer", 
         "winCount": "1"
     }, 
     {
         "wins": {
+            "1991": "Pittsburgh Penguins", 
             "1987": "Edmonton Oilers", 
             "1984": "Edmonton Oilers", 
             "1985": "Edmonton Oilers"
@@ -1244,62 +1487,87 @@
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1952": "Detroit Red Wings"
+        }, 
         "name": "Hugh Coflin", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1995": "New Jersey Devils"
+        }, 
         "name": "Danton Cole", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2006": "Carolina Hurricanes"
+        }, 
         "name": "Erik Cole", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2016": "Pittsburgh Penguins"
+        }, 
         "name": "Ian Cole", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1894": "Montreal AAA"
+        }, 
         "name": "Herb Collins", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1940": "New York Rangers"
+        }, 
         "name": "Mac Colville", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1940": "New York Rangers"
+        }, 
         "name": "Neil Colville", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2006": "Carolina Hurricanes"
+        }, 
         "name": "Mike Commodore", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1967": "Toronto Maple Leafs"
+        }, 
         "name": "Brian Conacher", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1932": "Toronto Maple Leafs"
+        }, 
         "name": "Charlie Conacher", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1935": "Montreal Maroons", 
+            "1934": "Chicago Black Hawks"
+        }, 
         "name": "Lionel Conacher", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1984": "Edmonton Oilers"
+        }, 
         "name": "Pat Conacher", 
         "winCount": "1"
     }, 
@@ -1312,17 +1580,24 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1935": "Montreal Maroons", 
+            "1927": "Ottawa Senators"
+        }, 
         "name": "Alex Connell", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1938": "Chicago Black Hawks"
+        }, 
         "name": "Bert Connelly", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1979": "Montreal Canadiens"
+        }, 
         "name": "Cam Connor", 
         "winCount": "1"
     }, 
@@ -1335,12 +1610,16 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1915": "Vancouver Millionaires"
+        }, 
         "name": "Lloyd Cook", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1934": "Chicago Black Hawks"
+        }, 
         "name": "Tom Cook", 
         "winCount": "1"
     }, 
@@ -1353,42 +1632,59 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2009": "Pittsburgh Penguins"
+        }, 
         "name": "Matt Cooke", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1916": "Montreal Canadiens"
+        }, 
         "name": "Bert Corbeau", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1914": "Toronto Blueshirts"
+        }, 
         "name": "Con Corbeau", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1996": "Colorado Avalanche"
+        }, 
         "name": "Rene Corbet", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1948": "Toronto Maple Leafs"
+        }, 
         "name": "Les Costello", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1932": "Toronto Maple Leafs"
+        }, 
         "name": "Harold Cotton", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1918": "Toronto Arenas"
+        }, 
         "name": "Jack Coughlin", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1940": "New York Rangers", 
+            "1934": "Chicago Black Hawks"
+        }, 
         "name": "Art Coulter", 
         "winCount": "2"
     }, 
@@ -1409,27 +1705,37 @@
         "winCount": "10"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1988": "Edmonton Oilers"
+        }, 
         "name": "Geoff Courtnall", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1924": "Montreal Canadiens"
+        }, 
         "name": "Wilfred Coutu", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1950": "Detroit Red Wings"
+        }, 
         "name": "Gerry Couture", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1934": "Chicago Black Hawks"
+        }, 
         "name": "Rosie Couture", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1974": "Philadelphia Flyers"
+        }, 
         "name": "Bruce Cowick", 
         "winCount": "1"
     }, 
@@ -1458,12 +1764,17 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1918": "Toronto Arenas", 
+            "1913": "Quebec Bulldogs"
+        }, 
         "name": "Rusty Crawford", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1913": "Quebec Bulldogs"
+        }, 
         "name": "Billy Creighton", 
         "winCount": "1"
     }, 
@@ -1484,22 +1795,31 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2016": "Pittsburgh Penguins", 
+            "2006": "Carolina Hurricanes"
+        }, 
         "name": "Matt Cullen", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2004": "Tampa Bay Lightning"
+        }, 
         "name": "Jassen Cullimore", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2015": "Chicago Blackhawks"
+        }, 
         "name": "Kyle Cumiskey", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1911": "Ottawa Senators"
+        }, 
         "name": "Alex Currie", 
         "winCount": "1"
     }, 
@@ -1514,32 +1834,44 @@
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1959": "Montreal Canadiens"
+        }, 
         "name": "Ian Cushenan", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1986": "Montreal Canadiens"
+        }, 
         "name": "Kjell Dahlin", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1938": "Chicago Black Hawks"
+        }, 
         "name": "Carl Dahlstrom", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1993": "Montreal Canadiens"
+        }, 
         "name": "Jean-Jacques Daigneault", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2016": "Pittsburgh Penguins"
+        }, 
         "name": "Trevor Daley", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1993": "Montreal Canadiens"
+        }, 
         "name": "Vincent Damphousse", 
         "winCount": "1"
     }, 
@@ -1562,17 +1894,23 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1992": "Pittsburgh Penguins"
+        }, 
         "name": "Jeff Daniels", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2015": "Chicago Blackhawks"
+        }, 
         "name": "Scott Darling", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1932": "Toronto Maple Leafs"
+        }, 
         "name": "Hal Darragh", 
         "winCount": "1"
     }, 
@@ -1595,7 +1933,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1914": "Toronto Blueshirts"
+        }, 
         "name": "Allan Davidson", 
         "winCount": "1"
     }, 
@@ -1627,37 +1967,52 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1953": "Montreal Canadiens"
+        }, 
         "name": "Lorne Davis", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1949": "Toronto Maple Leafs"
+        }, 
         "name": "Bob Dawes", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1932": "Toronto Maple Leafs"
+        }, 
         "name": "Clarence Day", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1996": "Colorado Avalanche"
+        }, 
         "name": "Adam Deadmarsh", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1995": "New Jersey Devils"
+        }, 
         "name": "Kevin Dean", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1986": "Montreal Canadiens"
+        }, 
         "name": "Lucien DeBlois", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1918": "Toronto Arenas", 
+            "1922": "Toronto St. Pats"
+        }, 
         "name": "Corbett Denneny", 
         "winCount": "2"
     }, 
@@ -1666,13 +2021,16 @@
             "1920": "Ottawa Senators", 
             "1921": "Ottawa Senators", 
             "1923": "Ottawa Senators", 
+            "1929": "Boston Bruins", 
             "1927": "Ottawa Senators"
         }, 
         "name": "Cyril Denneny", 
         "winCount": "5"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1961": "Chicago Black Hawks"
+        }, 
         "name": "Denis DeJordy", 
         "winCount": "1"
     }, 
@@ -1686,42 +2044,58 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2015": "Chicago Blackhawks"
+        }, 
         "name": "Andrew Desjardins", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1993": "Montreal Canadiens"
+        }, 
         "name": "Eric Desjardins", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2002": "Detroit Red Wings"
+        }, 
         "name": "Boyd Devereaux", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2001": "Colorado Avalanche"
+        }, 
         "name": "Greg De Vries", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1950": "Detroit Red Wings"
+        }, 
         "name": "Al Dewsbury", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1909": "Ottawa Senators"
+        }, 
         "name": "Edgar Jr. Dey", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1942": "Toronto Maple Leafs"
+        }, 
         "name": "Ernie Dickens", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1933": "New York Rangers"
+        }, 
         "name": "Cecil Dillon", 
         "winCount": "1"
     }, 
@@ -1734,42 +2108,59 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2001": "Colorado Avalanche", 
+            "2004": "Tampa Bay Lightning"
+        }, 
         "name": "Chris Dingman", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1926": "Montreal Maroons"
+        }, 
         "name": "Chuck Dinsmore", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1906": "Ottawa Senators"
+        }, 
         "name": "Unknown Dion", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1993": "Montreal Canadiens"
+        }, 
         "name": "Gilbert Dionne", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2007": "Anaheim Ducks"
+        }, 
         "name": "Joe Dipenta", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1993": "Montreal Canadiens"
+        }, 
         "name": "Paul DiPietro", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1970": "Boston Bruins"
+        }, 
         "name": "Gary Doak", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1899": "Montreal Shamrocks"
+        }, 
         "name": "John Dobby", 
         "winCount": "1"
     }, 
@@ -1799,22 +2190,30 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1943": "Detroit Red Wings"
+        }, 
         "name": "Les Douglas", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1995": "New Jersey Devils"
+        }, 
         "name": "Jim Dowd", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2008": "Detroit Red Wings"
+        }, 
         "name": "Aaron Downey", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2008": "Detroit Red Wings"
+        }, 
         "name": "Dallas Drake", 
         "winCount": "1"
     }, 
@@ -1829,7 +2228,9 @@
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2012": "Los Angeles Kings"
+        }, 
         "name": "Davis Drewiske", 
         "winCount": "1"
     }, 
@@ -1845,17 +2246,23 @@
         "winCount": "5"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1942": "Toronto Maple Leafs"
+        }, 
         "name": "Gord Drillon", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1995": "New Jersey Devils"
+        }, 
         "name": "Bruce Driver", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2001": "Colorado Avalanche"
+        }, 
         "name": "Chris Drury", 
         "winCount": "1"
     }, 
@@ -1872,12 +2279,16 @@
         "winCount": "6"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1954": "Detroit Red Wings"
+        }, 
         "name": "Gilles Dube", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2002": "Detroit Red Wings"
+        }, 
         "name": "Steve Duchesne", 
         "winCount": "1"
     }, 
@@ -1894,7 +2305,9 @@
         "winCount": "6"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1993": "Montreal Canadiens"
+        }, 
         "name": "Donald Dufresne", 
         "winCount": "1"
     }, 
@@ -1907,7 +2320,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2016": "Pittsburgh Penguins"
+        }, 
         "name": "Brian Dumoulin", 
         "winCount": "1"
     }, 
@@ -1936,42 +2351,58 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1922": "Toronto St. Pats"
+        }, 
         "name": "Cecil Dye", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1988": "Edmonton Oilers"
+        }, 
         "name": "Steve Dykstra", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2010": "Chicago Blackhawks"
+        }, 
         "name": "Ben Eager", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2009": "Pittsburgh Penguins"
+        }, 
         "name": "Mark Eaton", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1906": "Ottawa Senators"
+        }, 
         "name": "Jack Ebbs", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1946": "Montreal Canadiens"
+        }, 
         "name": "Frank Eddolls", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1961": "Chicago Black Hawks"
+        }, 
         "name": "Allan Edwards", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1964": "Toronto Maple Leafs"
+        }, 
         "name": "Gerry Ehman", 
         "winCount": "1"
     }, 
@@ -1984,22 +2415,31 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1895": "Montreal Victorias", 
+            "1902": "Montreal AAA"
+        }, 
         "name": "Ronald Elliot", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1967": "Toronto Maple Leafs"
+        }, 
         "name": "Ron Ellis", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1925": "Victoria Cougars"
+        }, 
         "name": "Wally Elmer", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2013": "Chicago Blackhawks"
+        }, 
         "name": "Ray Emery", 
         "winCount": "1"
     }, 
@@ -2013,12 +2453,16 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1967": "Toronto Maple Leafs"
+        }, 
         "name": "Aut Erickson", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1998": "Detroit Red Wings"
+        }, 
         "name": "Anders Eriksson", 
         "winCount": "1"
     }, 
@@ -2031,12 +2475,16 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1907": "Montreal Wanderers"
+        }, 
         "name": "T. Eskrine", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1969": "Montreal Canadiens"
+        }, 
         "name": "Tony Esposito", 
         "winCount": "1"
     }, 
@@ -2049,17 +2497,23 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1961": "Chicago Black Hawks"
+        }, 
         "name": "Jack Evans", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1935": "Montreal Maroons"
+        }, 
         "name": "Stewart Evans", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1993": "Montreal Canadiens"
+        }, 
         "name": "Todd Ewen", 
         "winCount": "1"
     }, 
@@ -2099,12 +2553,16 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2004": "Tampa Bay Lightning"
+        }, 
         "name": "Ruslan Fedotenko", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2016": "Pittsburgh Penguins"
+        }, 
         "name": "Eric Fehr", 
         "winCount": "1"
     }, 
@@ -2120,12 +2578,16 @@
         "winCount": "5"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1895": "Montreal Victorias"
+        }, 
         "name": "Art Fenwick", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2011": "Boston Bruins"
+        }, 
         "name": "Andrew Ference", 
         "winCount": "1"
     }, 
@@ -2146,47 +2608,66 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2008": "Detroit Red Wings"
+        }, 
         "name": "Valtteri Filppula", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1905": "Ottawa Senators"
+        }, 
         "name": "Dave Finnie", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1932": "Toronto Maple Leafs", 
+            "1927": "Ottawa Senators"
+        }, 
         "name": "Frank Finnigan", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1996": "Colorado Avalanche"
+        }, 
         "name": "Stephane Fiset", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2002": "Detroit Red Wings"
+        }, 
         "name": "Jiri Fischer", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1943": "Detroit Red Wings"
+        }, 
         "name": "Joe Fisher", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1951": "Toronto Maple Leafs"
+        }, 
         "name": "Fern Flaman", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1961": "Chicago Black Hawks"
+        }, 
         "name": "Reg Fleming", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1974": "Philadelphia Flyers"
+        }, 
         "name": "Bill Flett", 
         "winCount": "1"
     }, 
@@ -2216,12 +2697,16 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1989": "Calgary Flames"
+        }, 
         "name": "Theoren Fleury", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1950": "Detroit Red Wings"
+        }, 
         "name": "Lido Fogolin", 
         "winCount": "1"
     }, 
@@ -2250,12 +2735,18 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1916": "Montreal Canadiens"
+        }, 
         "name": "Jack Fournier", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1914": "Toronto Blueshirts", 
+            "1917": "Seattle Metropolitans", 
+            "1925": "Victoria Cougars"
+        }, 
         "name": "Frank Foyston", 
         "winCount": "3"
     }, 
@@ -2268,47 +2759,67 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1937": "Detroit Red Wings"
+        }, 
         "name": "Jimmy Franks", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2008": "Detroit Red Wings"
+        }, 
         "name": "Johan Franzen", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1903": "Ottawa Senators"
+        }, 
         "name": "Arthur Fraser", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2010": "Chicago Blackhawks", 
+            "2012": "Los Angeles Kings"
+        }, 
         "name": "Colin Fraser", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1925": "Victoria Cougars"
+        }, 
         "name": "Gord Fraser", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1929": "Boston Bruins", 
+            "1925": "Victoria Cougars"
+        }, 
         "name": "Frank Fredrickson", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2003": "New Jersey Devils"
+        }, 
         "name": "Jeff Friesen", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2013": "Chicago Blackhawks"
+        }, 
         "name": "Michael Frolik", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1939": "Boston Bruins"
+        }, 
         "name": "Harry Frost", 
         "winCount": "1"
     }, 
@@ -2324,17 +2835,23 @@
         "winCount": "5"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2014": "Los Angeles Kings"
+        }, 
         "name": "Marian Gaborik", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2012": "Los Angeles Kings"
+        }, 
         "name": "Simon Gagne", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1931": "Montreal Canadiens"
+        }, 
         "name": "Johnny Gagnon", 
         "winCount": "1"
     }, 
@@ -2350,22 +2867,31 @@
         "winCount": "5"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1929": "Boston Bruins", 
+            "1935": "Montreal Maroons"
+        }, 
         "name": "Norman Gainor", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1929": "Boston Bruins"
+        }, 
         "name": "Percy Galbraith", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1937": "Detroit Red Wings"
+        }, 
         "name": "John Gallagher", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1953": "Montreal Canadiens"
+        }, 
         "name": "Dick Gamble", 
         "winCount": "1"
     }, 
@@ -2378,7 +2904,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1934": "Chicago Black Hawks"
+        }, 
         "name": "Chuck Gardiner", 
         "winCount": "1"
     }, 
@@ -2393,17 +2921,23 @@
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2009": "Pittsburgh Penguins"
+        }, 
         "name": "Mathieu Garon", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1901": "Winnipeg Victorias"
+        }, 
         "name": "George Garruthers", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1954": "Detroit Red Wing:"
+        }, 
         "name": "Dave Gatherum", 
         "winCount": "1"
     }, 
@@ -2416,17 +2950,23 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1965": "Montreal Canadiens"
+        }, 
         "name": "Jean Gauthier", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1950": "Detroit Red Wings"
+        }, 
         "name": "George Gee", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1990": "Edmonton Oilers"
+        }, 
         "name": "Martin Gelinas", 
         "winCount": "1"
     }, 
@@ -2443,7 +2983,9 @@
         "winCount": "6"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2006": "Carolina Hurricanes:"
+        }, 
         "name": "Martin Gerber", 
         "winCount": "1"
     }, 
@@ -2451,46 +2993,61 @@
         "wins": {
             "1920": "Ottawa Senators", 
             "1921": "Ottawa Senators", 
+            "1922": "Toronto St. Pats", 
             "1923": "Ottawa Senators"
         }, 
         "name": "Eddie Gerard", 
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1939": "Boston Bruins", 
+            "1944": "Montreal Canadiens"
+        }, 
         "name": "Ray Getliffe", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2007": "Anaheim Ducks"
+        }, 
         "name": "Ryan Getzlaf", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2007": "Anaheim Ducks"
+        }, 
         "name": "Jean-Sebastien Giguere", 
         "winCount": "1"
     }, 
     {
         "wins": {
             "1982": "New York Islanders", 
-            "1983": "New York Islanders"
+            "1983": "New York Islanders", 
+            "1994": "New York Rangers"
         }, 
         "name": "Greg Gilbert", 
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1998": "Detroit Red Wings"
+        }, 
         "name": "Brent Gilchrist", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2009": "Pittsburgh Penguins"
+        }, 
         "name": "Hal Gill", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1991": "Pittsburgh Penguins"
+        }, 
         "name": "Randy Gilhen", 
         "winCount": "1"
     }, 
@@ -2513,12 +3070,16 @@
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1903": "Ottawa Senator:"
+        }, 
         "name": "Dave Gilmour", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1989": "Calgary Flames:"
+        }, 
         "name": "Doug Gilmour", 
         "winCount": "1"
     }, 
@@ -2534,7 +3095,9 @@
         "winCount": "5"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1908": "Montreal Wanderers"
+        }, 
         "name": "Larry Gilmour", 
         "winCount": "1"
     }, 
@@ -2547,7 +3110,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1986": "Montreal Canadiens"
+        }, 
         "name": "Gaston Gingras", 
         "winCount": "1"
     }, 
@@ -2560,12 +3125,16 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2003": "New Jersey Devils"
+        }, 
         "name": "Brian Gionta", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1907": "Kenora Thistles"
+        }, 
         "name": "Eddie Giroux", 
         "winCount": "1"
     }, 
@@ -2580,7 +3149,9 @@
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1952": "Detroit Red Wings"
+        }, 
         "name": "Fred Glover", 
         "winCount": "1"
     }, 
@@ -2596,17 +3167,23 @@
         "winCount": "5"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1934": "Chicago Black Hawks"
+        }, 
         "name": "Leroy Goldsworthy", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1942": "Toronto Maple Leafs"
+        }, 
         "name": "Hank Goldup", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2009": "Pittsburgh Penguins"
+        }, 
         "name": "Alex Goligoski", 
         "winCount": "1"
     }, 
@@ -2619,17 +3196,23 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2009": "Pittsburgh Penguins"
+        }, 
         "name": "Sergei Gonchar", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1975": "Philadelphia Flyers"
+        }, 
         "name": "Larry Goodenough", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1938": "Chicago Black Hawks"
+        }, 
         "name": "Paul Goodman", 
         "winCount": "1"
     }, 
@@ -2653,7 +3236,9 @@
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1927": "Ottawa Senators"
+        }, 
         "name": "Ed Gorman", 
         "winCount": "1"
     }, 
@@ -2676,27 +3261,38 @@
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1932": "Toronto Maple Leafs", 
+            "1935": "Montreal Maroons"
+        }, 
         "name": "Bob Gracie", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2004": "Tampa Bay Lightning"
+        }, 
         "name": "John Grahame", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1921": "Ottawa Senators"
+        }, 
         "name": "Leth Graham", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1912": "Quebec Bulldogs"
+        }, 
         "name": "Jack Grannery", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1968": "Montreal Canadiens"
+        }, 
         "name": "Danny Grant", 
         "winCount": "1"
     }, 
@@ -2712,12 +3308,17 @@
         "winCount": "5"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1990": "Edmonton Oilers", 
+            "1994": "New York Rangers"
+        }, 
         "name": "Adam Graves", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1928": "New York Rangers"
+        }, 
         "name": "Alex Gray", 
         "winCount": "1"
     }, 
@@ -2733,12 +3334,16 @@
         "winCount": "5"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1929": "Boston Bruins"
+        }, 
         "name": "Red Green", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1986": "Montreal Canadiens"
+        }, 
         "name": "Rick Green", 
         "winCount": "1"
     }, 
@@ -2759,7 +3364,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1969": "Montreal Canadiens"
+        }, 
         "name": "Lucien Grenier", 
         "winCount": "1"
     }, 
@@ -2774,37 +3381,53 @@
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1907": "Kenora Thistles", 
+            "1915": "Vancouver Millionaires"
+        }, 
         "name": "Silas Griffis", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1943": "Detroit Red Wings"
+        }, 
         "name": "Don Grosso", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2009": "Pittsburgh Penguins", 
+            "1995": "New Jersey Devils"
+        }, 
         "name": "Bill Guerin", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1996": "Colorado Avalanche"
+        }, 
         "name": "Alexei Gusarov", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2016": "Pittsburgh Penguins"
+        }, 
         "name": "Carl Hagelin", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1906": "Ottawa Senators"
+        }, 
         "name": "Billy Hague", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1950": "Detroit Red Wings"
+        }, 
         "name": "Gord Haidy", 
         "winCount": "1"
     }, 
@@ -2817,17 +3440,23 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1925": "Victoria Cougars"
+        }, 
         "name": "Harold Halderson", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1961": "Chicago Black Hawks", 
+            "1952": "Detroit Red Wings"
+        }, 
         "name": "Glenn Hall", 
         "winCount": "2"
     }, 
     {
         "wins": {
+            "1907": "Kenora Thistles", 
             "1913": "Quebec Bulldogs", 
             "1912": "Quebec Bulldogs"
         }, 
@@ -2835,22 +3464,30 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1993": "Montreal Canadiens"
+        }, 
         "name": "Kevin Haller", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1927": "Ottawa Senators"
+        }, 
         "name": "Milton Halliday", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1983": "New York Islanders"
+        }, 
         "name": "Mats Hallin", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1939": "Boston Bruins"
+        }, 
         "name": "Robert Hamill", 
         "winCount": "1"
     }, 
@@ -2863,12 +3500,17 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2013": "Chicago Blackhawks:"
+        }, 
         "name": "Michal Handzu\u0161", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1988": "Edmonton Oilers", 
+            "1996": "Colorado Avalanche"
+        }, 
         "name": "Dave Hanna", 
         "winCount": "2"
     }, 
@@ -2896,7 +3538,8 @@
             "1965": "Montreal Canadiens", 
             "1966": "Montreal Canadiens", 
             "1968": "Montreal Canadiens", 
-            "1969": "Montreal Canadiens"
+            "1969": "Montreal Canadiens", 
+            "1975": "Philadelphia Flyers"
         }, 
         "name": "Edward Harris", 
         "winCount": "5"
@@ -2911,22 +3554,31 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1914": "Toronto Blue Shirts"
+        }, 
         "name": "James Harriston", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1925": "Victoria Cougars"
+        }, 
         "name": "Harold Hart", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2008": "Detroit Red Wings", 
+            "2007": "Anaheim Ducks"
+        }, 
         "name": "Mark Hartigan", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1994": "New York Rangers"
+        }, 
         "name": "Mike Hartman", 
         "winCount": "1"
     }, 
@@ -2951,47 +3603,65 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1951": "Toronto Maple Leafs"
+        }, 
         "name": "Bob Hassard", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1999": "Dallas Stars"
+        }, 
         "name": "Derian Hatcher", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1961": "Chicago Black Hawks"
+        }, 
         "name": "Bill Hay", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1955": "Detroit Red Wings"
+        }, 
         "name": "Jim Hay", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1972": "Boston Bruins"
+        }, 
         "name": "Chris Hayes", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1994": "New York Rangers"
+        }, 
         "name": "Glenn Healy", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1944": "Montreal Canadiens"
+        }, 
         "name": "Gerry Hefferman", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2006": "Carolina Hurricanes"
+        }, 
         "name": "Bret Hedican", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2001": "Colorado Avalanche"
+        }, 
         "name": "Milan Hejduk", 
         "winCount": "1"
     }, 
@@ -3004,12 +3674,16 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1923": "Ottawa Senators"
+        }, 
         "name": "Harry Helman", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2008": "Detroit Red Wings"
+        }, 
         "name": "Darren Helm", 
         "winCount": "1"
     }, 
@@ -3023,7 +3697,9 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2010": "Chicago Blackhawks"
+        }, 
         "name": "Jordan Hendry", 
         "winCount": "1"
     }, 
@@ -3046,7 +3722,9 @@
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1940": "New York Rangers"
+        }, 
         "name": "Bryan Sr. Hextall", 
         "winCount": "1"
     }, 
@@ -3059,60 +3737,81 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1961": "Chicago Black Hawks"
+        }, 
         "name": "Wayne Hicks", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1896": "Winnipeg Victorias"
+        }, 
         "name": "Fred Higginbotham", 
         "winCount": "1"
     }, 
     {
         "wins": {
             "1939": "Boston Bruins", 
-            "1941": "Boston Bruins"
+            "1941": "Boston Bruins", 
+            "1945": "Toronto Maple Leafs"
         }, 
         "name": "Mel Hill", 
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1993": "Montreal Canadiens"
+        }, 
         "name": "Sean Hill", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1991": "Pittsburgh Penguins"
+        }, 
         "name": "Randy Hillier", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1941": "Boston Bruins", 
+            "1946": "Montreal Canadiens"
+        }, 
         "name": "Wilbert Hiller", 
         "winCount": "2"
     }, 
     {
         "wins": {
+            "1969": "Montreal Canadiens", 
             "1964": "Toronto Maple Leafs", 
             "1967": "Toronto Maple Leafs", 
             "1962": "Toronto Maple Leafs", 
-            "1963": "Toronto Maple Leafs"
+            "1963": "Toronto Maple Leafs", 
+            "1955": "Detroit Red Wings"
         }, 
         "name": "Larry Hillman", 
         "winCount": "6"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1961": "Chicago Black Hawks"
+        }, 
         "name": "Wayne Hillman", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2001": "Colorado Avalanche"
+        }, 
         "name": "Dan Hinote", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1929": "Boston Bruins", 
+            "1923": "Ottawa Senators"
+        }, 
         "name": "Lionel Hitchman", 
         "winCount": "2"
     }, 
@@ -3126,7 +3825,9 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2011": "Boston Bruins"
+        }, 
         "name": "Shane Hnidy", 
         "winCount": "1"
     }, 
@@ -3183,7 +3884,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1999": "Dallas Stars"
+        }, 
         "name": "Benoit Hogue", 
         "winCount": "1"
     }, 
@@ -3204,7 +3907,12 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1918": "Toronto Arenas", 
+            "1914": "Toronto Blue Shirts", 
+            "1917": "Seattle Metropolitans", 
+            "1925": "Victoria Cougars"
+        }, 
         "name": "Hap Holmes", 
         "winCount": "4"
     }, 
@@ -3219,12 +3927,16 @@
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1943": "Detroit Red Wings"
+        }, 
         "name": "Johnny Holota", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1926": "Montreal Maroons"
+        }, 
         "name": "Albert Holway", 
         "winCount": "1"
     }, 
@@ -3237,12 +3949,16 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "Montreal Wanderers": "1907"
+        }, 
         "name": "Kenora Thistles Hooper. Tom", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1926": "Montreal Maroons"
+        }, 
         "name": "George Horne", 
         "winCount": "1"
     }, 
@@ -3255,17 +3971,23 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1932": "Toronto Maple Leafs"
+        }, 
         "name": "Reginald Horner", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2016": "Pittsburgh Penguins"
+        }, 
         "name": "Patric Hornqvist", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2011": "Boston Bruins"
+        }, 
         "name": "Nathan Horton", 
         "winCount": "1"
     }, 
@@ -3300,7 +4022,9 @@
         "winCount": "5"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1896": "Winnipeg Victorias"
+        }, 
         "name": "Tom Howard", 
         "winCount": "1"
     }, 
@@ -3334,13 +4058,16 @@
     {
         "wins": {
             "1991": "Pittsburgh Penguins", 
-            "1992": "Pittsburgh Penguins"
+            "1992": "Pittsburgh Penguins", 
+            "1989": "Calgary Flames"
         }, 
         "name": "Jiri Hrdina", 
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1999": "Dallas Stars"
+        }, 
         "name": "Tony Hrkac", 
         "winCount": "1"
     }, 
@@ -3356,40 +4083,54 @@
         "winCount": "5"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2008": "Detroit Red Wings"
+        }, 
         "name": "Jiri Hudler", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1994": "New York Rangers"
+        }, 
         "name": "Mike Hudson", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2010": "Chicago Blackhawks"
+        }, 
         "name": "Cristobal Huet", 
         "winCount": "1"
     }, 
     {
         "wins": {
             "1984": "Edmonton Oilers", 
-            "1985": "Edmonton Oilers"
+            "1985": "Edmonton Oilers", 
+            "1979": "Montreal Canadiens"
         }, 
         "name": "Pat Hughes", 
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1961": "Chicago Black Hawks"
+        }, 
         "name": "Bobby Hull", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1999": "Dallas Stars", 
+            "2002": "Detroit Red Wings"
+        }, 
         "name": "Brett Hull", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2013": "Chicago Blackhawks"
+        }, 
         "name": "Carter Hutton", 
         "winCount": "1"
     }, 
@@ -3403,22 +4144,30 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1989": "Calgary Flames"
+        }, 
         "name": "Mark Hunter", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1989": "Calgary Flames"
+        }, 
         "name": "Tim Hunter", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2007": "Anaheim Ducks"
+        }, 
         "name": "Kent Huskins", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2006": "Carolina Hurricanes"
+        }, 
         "name": "Andrew Hutchinson", 
         "winCount": "1"
     }, 
@@ -3431,7 +4180,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1910": "Montreal Wanderers"
+        }, 
         "name": "Harry Hyland", 
         "winCount": "1"
     }, 
@@ -3444,12 +4195,17 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2007": "Anaheim Ducks"
+        }, 
         "name": "Ric Jackman", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1941": "Boston Bruins", 
+            "1945": "Toronto Maple Leafs"
+        }, 
         "name": "Art Jackson", 
         "winCount": "2"
     }, 
@@ -3462,17 +4218,24 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1943": "Detroit Red Wings", 
+            "1938": "Chicago Black Hawks"
+        }, 
         "name": "Harold Jackson", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1932": "Toronto Maple Leafs"
+        }, 
         "name": "Harvey Jackson", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1922": "Toronto Maple Leafs"
+        }, 
         "name": "Stan Jackson", 
         "winCount": "1"
     }, 
@@ -3485,7 +4248,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1894": "Montreal AAA"
+        }, 
         "name": "George James", 
         "winCount": "1"
     }, 
@@ -3516,7 +4281,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1967": "Toronto Maple Leafs"
+        }, 
         "name": "Larry Jeffrey", 
         "winCount": "1"
     }, 
@@ -3551,12 +4318,16 @@
         "winCount": "6"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1954": "Detroit Red Wings"
+        }, 
         "name": "Earl Johnson", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1938": "Chicago Black Hawks"
+        }, 
         "name": "Virgil Johnson", 
         "winCount": "1"
     }, 
@@ -3578,7 +4349,9 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1945": "Toronto Maple Leafs"
+        }, 
         "name": "Ross Johnstone", 
         "winCount": "1"
     }, 
@@ -3600,7 +4373,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2014": "Los Angeles Kings"
+        }, 
         "name": "Martin Jones", 
         "winCount": "1"
     }, 
@@ -3621,12 +4396,16 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2006": "Carolina Hurricanes"
+        }, 
         "name": "Frantisek Kaberle", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2011": "Boston Bruins"
+        }, 
         "name": "Tomas Kaberle", 
         "winCount": "1"
     }, 
@@ -3650,32 +4429,46 @@
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1996": "Colorado Avalanche"
+        }, 
         "name": "Valeri Kamensky", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1942": "Toronto Maple Leafs"
+        }, 
         "name": "Rudolph Kampman", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1938": "Chicago Black Hawks"
+        }, 
         "name": "Mike Karakas", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1994": "New York Rangers"
+        }, 
         "name": "Alexander Karpovtsev", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1999": "Dallas Stars", 
+            "1993": "Montreal Canadiens", 
+            "1996": "Colorado Avalanche"
+        }, 
         "name": "Mike Keane", 
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1933": "New York Rangers"
+        }, 
         "name": "Melville Keeling", 
         "winCount": "1"
     }, 
@@ -3697,7 +4490,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2011": "Boston Bruins"
+        }, 
         "name": "Chris Kelly", 
         "winCount": "1"
     }, 
@@ -3724,12 +4519,16 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2000": "New Jersey Devils"
+        }, 
         "name": "Steve Kelly", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1934": "Chicago Black Hawks"
+        }, 
         "name": "Bill Kendall", 
         "winCount": "1"
     }, 
@@ -3753,7 +4552,9 @@
         "winCount": "5"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2009": "Pittsburgh Penguins"
+        }, 
         "name": "Tyler Kennedy", 
         "winCount": "1"
     }, 
@@ -3777,24 +4578,31 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1940": "New York Rangers"
+        }, 
         "name": "Dave Kerr", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2016": "Pittsburgh Penguins"
+        }, 
         "name": "Phil Kessel", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2004": "Tampa Bay Lightning"
+        }, 
         "name": "Nikolai Khabibulin", 
         "winCount": "1"
     }, 
     {
         "wins": {
             "1937": "Detroit Red Wings", 
-            "1936": "Detroit Red Wings"
+            "1936": "Detroit Red Wings", 
+            "1927": "Ottawa Senators"
         }, 
         "name": "Hector Kilrea", 
         "winCount": "3"
@@ -3832,17 +4640,23 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1926": "Montreal Maroons"
+        }, 
         "name": "Chapman Kitchen", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1929": "Boston Bruins"
+        }, 
         "name": "Lloyd Klein", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1990": "Edmonton Oilers"
+        }, 
         "name": "Petr Klima", 
         "winCount": "1"
     }, 
@@ -3855,7 +4669,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1998": "Detroit Red Wings"
+        }, 
         "name": "Mike Knuble", 
         "winCount": "1"
     }, 
@@ -3872,6 +4688,7 @@
     {
         "wins": {
             "1998": "Detroit Red Wings", 
+            "1994": "New York Rangers", 
             "1997": "Detroit Red Wings"
         }, 
         "name": "Joey Kocur", 
@@ -3886,7 +4703,10 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2008": "Detroit Red Wings", 
+            "2010": "Chicago Blackhawks"
+        }, 
         "name": "Tomas Kopecky", 
         "winCount": "2"
     }, 
@@ -3899,12 +4719,16 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1986": "Montreal Canadiens"
+        }, 
         "name": "John Kordic", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1994": "New York Rangers"
+        }, 
         "name": "Alexei Kovalev", 
         "winCount": "1"
     }, 
@@ -3917,12 +4741,16 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2011": "Boston Bruins"
+        }, 
         "name": "David Krejci", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2008": "Detroit Red Wings"
+        }, 
         "name": "Niklas Kronwall", 
         "winCount": "1"
     }, 
@@ -3935,7 +4763,10 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2002": "Detroit Red Wings", 
+            "1996": "Colorado Avalanche"
+        }, 
         "name": "Uwe Krupp", 
         "winCount": "2"
     }, 
@@ -3949,19 +4780,24 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2004": "Tampa Bay Lightning"
+        }, 
         "name": "Pavel Kubina", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2016": "Pittsburgh Penguins"
+        }, 
         "name": "Tom Kuhnhackl", 
         "winCount": "1"
     }, 
     {
         "wins": {
             "2016": "Pittsburgh Penguins", 
-            "2009": "Pittsburgh Penguins"
+            "2009": "Pittsburgh Penguins", 
+            "2007": "Anaheim Ducks"
         }, 
         "name": "Chris Kunitz", 
         "winCount": "3"
@@ -3978,17 +4814,23 @@
         "winCount": "5"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1986": "Montreal Canadiens"
+        }, 
         "name": "Thomas Kurvers", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2002": "Detroit Red Wings"
+        }, 
         "name": "Maxim Kuznetsov", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1994": "New York Rangers"
+        }, 
         "name": "Nick Kypreos", 
         "winCount": "1"
     }, 
@@ -4002,12 +4844,17 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1988": "Edmonton Oilers"
+        }, 
         "name": "Normand Lacombe", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2006": "Carolina Hurricanes", 
+            "2010": "Chicago Blackhawks"
+        }, 
         "name": "Andrew Ladd", 
         "winCount": "2"
     }, 
@@ -4032,17 +4879,23 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1916": "Montreal Candiens"
+        }, 
         "name": "Newsy Lalonde", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1986": "Montreal Canadiens"
+        }, 
         "name": "Mike Lalor", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1990": "Edmonton Oilers"
+        }, 
         "name": "Mark Lamb", 
         "winCount": "1"
     }, 
@@ -4075,17 +4928,24 @@
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1929": "Boston Bruins"
+        }, 
         "name": "Myles Lane", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1942": "Toronto Maple Leafs"
+        }, 
         "name": "Pete Langelle", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1999": "Dallas Stars", 
+            "2003": "New Jersey Devils"
+        }, 
         "name": "Jamie Langenbrunner", 
         "winCount": "2"
     }, 
@@ -4109,7 +4969,9 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1979": "Montreal Canadiens"
+        }, 
         "name": "Rod Langway", 
         "winCount": "1"
     }, 
@@ -4155,7 +5017,9 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1994": "New York Rangers"
+        }, 
         "name": "Steve Larmer", 
         "winCount": "1"
     }, 
@@ -4178,7 +5042,9 @@
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2006": "Carolina Hurricanes"
+        }, 
         "name": "Chad Larose", 
         "winCount": "1"
     }, 
@@ -4202,32 +5068,44 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1916": "Montreal Canadiens"
+        }, 
         "name": "Jack Laviolette", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1992": "Pittsburgh Penguins"
+        }, 
         "name": "Jamie Leach", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1975": "Philadelphia Flyers"
+        }, 
         "name": "Reggie Leach", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1993": "Montreal Canadiens"
+        }, 
         "name": "Stephan Lebeau", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2008": "Detroit Red Wings"
+        }, 
         "name": "Brett Lebda", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2004": "Tampa Bay Lightning"
+        }, 
         "name": "Vincent Lecavalier", 
         "winCount": "1"
     }, 
@@ -4240,12 +5118,16 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1993": "Montreal Canadiens"
+        }, 
         "name": "John LeClair", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2013": "Chicago Blackhawks"
+        }, 
         "name": "Nick Leddy", 
         "winCount": "1"
     }, 
@@ -4258,17 +5140,23 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1993": "Montreal Canadiens"
+        }, 
         "name": "Gary Leeman", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1994": "New York Rangers"
+        }, 
         "name": "Brian Leetch", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1996": "Colorado Avalanche"
+        }, 
         "name": "Sylvain Lefebvre", 
         "winCount": "1"
     }, 
@@ -4281,17 +5169,23 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2002": "Detroit Red Wings"
+        }, 
         "name": "Manny Legace", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1915": "Vancouver Millionaires"
+        }, 
         "name": "Hugh Lehman", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1999": "Dallas Stars"
+        }, 
         "name": "Jere Lehtinen", 
         "winCount": "1"
     }, 
@@ -4310,14 +5204,18 @@
         "winCount": "8"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1987": "Edmonton Oilers"
+        }, 
         "name": "Maurice Lemay", 
         "winCount": "1"
     }, 
     {
         "wins": {
+            "1986": "Montreal Canadiens", 
             "2000": "New Jersey Devils", 
-            "1995": "New Jersey Devils"
+            "1995": "New Jersey Devils", 
+            "1996": "Colorado Avalanche"
         }, 
         "name": "Claude Lemieux", 
         "winCount": "4"
@@ -4331,7 +5229,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1912": "Quebec Bulldogs"
+        }, 
         "name": "George Leonard", 
         "winCount": "1"
     }, 
@@ -4344,12 +5244,16 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1996": "Colorado Avalanche"
+        }, 
         "name": "Curtis Leschyshyn", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1931": "Montreal Canadiens"
+        }, 
         "name": "Art Lesieur", 
         "winCount": "1"
     }, 
@@ -4363,12 +5267,16 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1970": "Boston Bruins"
+        }, 
         "name": "Bill Lesuk", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1934": "Chicago Black Hawks"
+        }, 
         "name": "Jack Leswick", 
         "winCount": "1"
     }, 
@@ -4390,12 +5298,17 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1932": "Toronto Maple Leafs", 
+            "1938": "Chicago Black Hawks"
+        }, 
         "name": "Alex Levinsky", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1951": "Toronto Maple Leafs"
+        }, 
         "name": "Dannny Lewicki", 
         "winCount": "1"
     }, 
@@ -4436,7 +5349,10 @@
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1999": "Dallas Stars", 
+            "1994": "New York Rangers"
+        }, 
         "name": "Doug Lidster", 
         "winCount": "2"
     }, 
@@ -4449,12 +5365,16 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1908": "Montreal Wanderers"
+        }, 
         "name": "Ernie Liffiton", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2008": "Detroit Red Wings"
+        }, 
         "name": "Andreas Lilja", 
         "winCount": "1"
     }, 
@@ -4477,18 +5397,23 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1984": "Edmonton Oilers"
+        }, 
         "name": "Ken Linseman", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1943": "Detroit Red Wings"
+        }, 
         "name": "Carl Liscombe", 
         "winCount": "1"
     }, 
     {
         "wins": {
             "1964": "Toronto Maple Leafs", 
+            "1961": "Chicago Black Hawks", 
             "1962": "Toronto Maple Leafs", 
             "1963": "Toronto Maple Leafs"
         }, 
@@ -4496,7 +5421,9 @@
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2012": "Los Angeles Kings"
+        }, 
         "name": "Andrei Loktionov", 
         "winCount": "1"
     }, 
@@ -4517,12 +5444,16 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1989": "Calgary Flames"
+        }, 
         "name": "Hakan Loob", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1970": "Boston Bruins"
+        }, 
         "name": "Jim Lorentz", 
         "winCount": "1"
     }, 
@@ -4535,17 +5466,23 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1925": "Victoria Cougars"
+        }, 
         "name": "Clem Loughlin", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2016": "Pittsburgh Penguins"
+        }, 
         "name": "Ben Lovejoy", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1893": "Montreal AAA"
+        }, 
         "name": "George Lowe", 
         "winCount": "1"
     }, 
@@ -4554,24 +5491,33 @@
             "1987": "Edmonton Oilers", 
             "1984": "Edmonton Oilers", 
             "1985": "Edmonton Oilers", 
-            "1988": "Edmonton Oilers", 
-            "1990": "Edmonton Oilers"
+            "1994": "New York Rangers", 
+            "1990": "Edmonton Oilers", 
+            "1988": "Edmonton Oilers"
         }, 
         "name": "Kevin Lowe", 
         "winCount": "6"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2011": "Boston Bruins"
+        }, 
         "name": "Milan Lucic", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1986": "Montreal Canadiens", 
+            "1999": "Dallas Stars"
+        }, 
         "name": "Craig Ludwig", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1999": "Dallas Stars", 
+            "2004": "Tampa Bay Lightning"
+        }, 
         "name": "Brad Lukowich", 
         "winCount": "2"
     }, 
@@ -4584,7 +5530,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1950": "Detroit Red Wings"
+        }, 
         "name": "Harry Lumley", 
         "winCount": "1"
     }, 
@@ -4606,32 +5554,45 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2016": "Pittsburgh Penguins"
+        }, 
         "name": "Olli Maatta", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1974": "Philadelphia flyers"
+        }, 
         "name": "Al MacAdam", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1940": "New York Rangers"
+        }, 
         "name": "Kilby MacDonald", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1989": "Calgary Flames"
+        }, 
         "name": "Al MacInnis", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1953": "Montreal"
+        }, 
         "name": "Calum MacKay", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1929": "Boston Bruins", 
+            "1915": "Vancouver Millionaires"
+        }, 
         "name": "Duncan MacKay", 
         "winCount": "2"
     }, 
@@ -4652,17 +5613,24 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1938": "Chicago Black hawks", 
+            "1935": "Montreal Maroons"
+        }, 
         "name": "Bill MacKenzie", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1937": "Detroit Red Wings"
+        }, 
         "name": "Howie Mackie", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1995": "New Jersey Devils"
+        }, 
         "name": "John MacLean", 
         "winCount": "1"
     }, 
@@ -4675,7 +5643,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1989": "Calgary Flames"
+        }, 
         "name": "Brian MacLellan", 
         "winCount": "1"
     }, 
@@ -4688,18 +5658,24 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1998": "Detroit Red Wings", 
+            "1989": "Calgary Flames"
+        }, 
         "name": "Jamie Macoun", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1953": "Montreal Canadiens"
+        }, 
         "name": "James MacPherson", 
         "winCount": "1"
     }, 
     {
         "wins": {
             "1987": "Edmonton Oilers", 
+            "1994": "New York Rangers", 
             "1988": "Edmonton Oilers", 
             "1990": "Edmonton Oilers"
         }, 
@@ -4709,7 +5685,8 @@
     {
         "wins": {
             "2003": "New Jersey Devils", 
-            "2000": "New Jersey Devils"
+            "2000": "New Jersey Devils", 
+            "2010": "Chicago Blackhawks"
         }, 
         "name": "John Madden", 
         "winCount": "3"
@@ -4737,27 +5714,38 @@
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1944": "Montreal Canadiens"
+        }, 
         "name": "Fern Majeau", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1961": "Chicago Black Hawks"
+        }, 
         "name": "Ronald Maki", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2000": "New Jersey Devils"
+        }, 
         "name": "Vladimir Malakhov", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1986": "Montreal Canadiens"
+        }, 
         "name": "David Maley", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1910": "Ottawa Senators", 
+            "1915": "Vancouver Millionaires"
+        }, 
         "name": "Ken Mallen", 
         "winCount": "2"
     }, 
@@ -4770,7 +5758,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1913": "Quebec Bulldogs"
+        }, 
         "name": "Jeff Malone", 
         "winCount": "1"
     }, 
@@ -4810,7 +5800,9 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1967": "Toronto Maple Leafs"
+        }, 
         "name": "Milan Marcetta", 
         "winCount": "1"
     }, 
@@ -4823,12 +5815,16 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2011": "Boston Bruins"
+        }, 
         "name": "Brad Marchand", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2007": "Anaheim Ducks"
+        }, 
         "name": "Todd Marchant", 
         "winCount": "1"
     }, 
@@ -4849,12 +5845,15 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1935": "Montreal Maroons"
+        }, 
         "name": "Gus Marker", 
         "winCount": "1"
     }, 
     {
         "wins": {
+            "1918": "Toronto", 
             "1913": "Quebec Bulldogs", 
             "1912": "Quebec Bulldogs"
         }, 
@@ -4862,16 +5861,21 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1999": "Dallas Stars", 
+            "2003": "New Jersey Devils"
+        }, 
         "name": "Grant Marshall", 
         "winCount": "2"
     }, 
     {
         "wins": {
+            "1903": "Montreal AAA", 
+            "1910": "Montreal Wanderers", 
             "1907": "Montreal Wanderers", 
             "1902": "Montreal AAA", 
-            "1903": "Montreal AAA", 
-            "1910": "Montreal Wanderers"
+            "1914": "Toronto Blue Shirts", 
+            "1901": "Winnipeg Victorias"
         }, 
         "name": "Jack Marshall", 
         "winCount": "6"
@@ -4888,7 +5892,9 @@
         "winCount": "5"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1950": "Detroit Red Wings"
+        }, 
         "name": "Clare Martin", 
         "winCount": "1"
     }, 
@@ -4901,42 +5907,58 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1953": "Montreal Canadiens"
+        }, 
         "name": "Paul Masnick", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1994": "New York Rangers"
+        }, 
         "name": "Stephane Matteau", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1999": "Dallas Stars"
+        }, 
         "name": "Richard Matvichuk", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1915": "Vancouver Millionaires"
+        }, 
         "name": "Johnny Matz", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2007": "Anaheim Ducks"
+        }, 
         "name": "Brad May", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2013": "Chicago Blackhawks"
+        }, 
         "name": "Jamal Mayers", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1953": "Montreal Canadiens"
+        }, 
         "name": "Eddie Mazur", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1995": "New Jersey Devils"
+        }, 
         "name": "Chris McAlpine", 
         "winCount": "1"
     }, 
@@ -4969,12 +5991,17 @@
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1945": "Toronto Maple Leafs"
+        }, 
         "name": "Frank McCool", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1951": "Toronto Maple Leafs", 
+            "1953": "Montreal Canadiens"
+        }, 
         "name": "John McCormack", 
         "winCount": "2"
     }, 
@@ -4987,12 +6014,16 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1989": "Calgary Flames"
+        }, 
         "name": "Brad McCrimmon", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1905": "Ottawa Senators"
+        }, 
         "name": "Unknown McDonald", 
         "winCount": "1"
     }, 
@@ -5000,28 +6031,36 @@
         "wins": {
             "1960": "Montreal Canadiens", 
             "1959": "Montreal Canadiens", 
-            "1958": "Montreal Canadiens"
+            "1958": "Montreal Canadiens", 
+            "1961": "Chicago Black Hawks"
         }, 
         "name": "Alvin McDonald", 
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2007": "Anaheim Ducks"
+        }, 
         "name": "Andy McDonald", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1912": "Quebec Bulldogs"
+        }, 
         "name": "Jack McDonald", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1989": "Calgary Flames"
+        }, 
         "name": "Lanny McDonald", 
         "winCount": "1"
     }, 
     {
         "wins": {
+            "1942": "Toronto Maple leafs", 
             "1937": "Detroit Red Wings", 
             "1936": "Detroit Red Wings"
         }, 
@@ -5050,7 +6089,9 @@
         "winCount": "5"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1992": "Pittsburgh Penguins"
+        }, 
         "name": "Shawn McEachern", 
         "winCount": "1"
     }, 
@@ -5064,12 +6105,16 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1950": "Detroit Red Wings"
+        }, 
         "name": "Jim McFadden", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1934": "Chicago Black Hawks"
+        }, 
         "name": "Don McFadyen", 
         "winCount": "1"
     }, 
@@ -5094,22 +6139,30 @@
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1904": "Ottawa Senators"
+        }, 
         "name": "Jim McGee", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1914": "Toronto Blueshirts"
+        }, 
         "name": "Roy McGiffen", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1907": "Kenora Thistles"
+        }, 
         "name": "Billy McGimsie", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1950": "Detroit Red Wings"
+        }, 
         "name": "Doug McKay", 
         "winCount": "1"
     }, 
@@ -5122,7 +6175,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1980": "New York Islanders"
+        }, 
         "name": "Alex McKendry", 
         "winCount": "1"
     }, 
@@ -5135,12 +6190,16 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1964": "Toronto Maple Leafs"
+        }, 
         "name": "Don McKenney", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2003": "New JerseyDevils"
+        }, 
         "name": "Jim McKenzie", 
         "winCount": "1"
     }, 
@@ -5153,42 +6212,58 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1945": "Toronto Maple Leafs"
+        }, 
         "name": "Jack McLean", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1897": "Montreal Victorias"
+        }, 
         "name": "David McLellan", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1944": "Montreal Canadiens"
+        }, 
         "name": "Mike Sr. McMahon", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1935": "Montreal Maroons"
+        }, 
         "name": "Sammy McManus", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1950": "Detroit Red Wings"
+        }, 
         "name": "Max McNab", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1914": "Toronto Maple Leafs"
+        }, 
         "name": "George McNamara", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1916": "Montreal Canadiens"
+        }, 
         "name": "Harold McNamara", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1916": "Montreal Canadiens"
+        }, 
         "name": "Howard McNamara", 
         "winCount": "1"
     }, 
@@ -5202,17 +6277,23 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2011": "Boston Bruins"
+        }, 
         "name": "Adam McQuaid", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1950": "Detroit Red Wings"
+        }, 
         "name": "Harry McQuestion", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1986": "Montreal Canadiens"
+        }, 
         "name": "Mike McPhee", 
         "winCount": "1"
     }, 
@@ -5225,7 +6306,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1899": "Montreal Victorias"
+        }, 
         "name": "Fred McRobie", 
         "winCount": "1"
     }, 
@@ -5238,7 +6321,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2008": "Detroit Red Wings"
+        }, 
         "name": "Derek Meech", 
         "winCount": "1"
     }, 
@@ -5253,12 +6338,17 @@
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1918": "Toronto Arenas", 
+            "1925": "Victoria Cougars"
+        }, 
         "name": "Harry Meeking", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1953": "Montreal Canadiens"
+        }, 
         "name": "Paul Meger", 
         "winCount": "1"
     }, 
@@ -5280,12 +6370,16 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1906": "Montreal Wanderers"
+        }, 
         "name": "Henri Menard", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1920": "Ottawa Senators"
+        }, 
         "name": "Horace Merrill", 
         "winCount": "1"
     }, 
@@ -5300,12 +6394,16 @@
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1896": "Winnipeg Victorias"
+        }, 
         "name": "George Merritt", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2001": "Colorado Avalanche"
+        }, 
         "name": "Eric Messier", 
         "winCount": "1"
     }, 
@@ -5314,14 +6412,17 @@
             "1987": "Edmonton Oilers", 
             "1984": "Edmonton Oilers", 
             "1985": "Edmonton Oilers", 
-            "1988": "Edmonton Oilers", 
-            "1990": "Edmonton Oilers"
+            "1994": "New York Rangers", 
+            "1990": "Edmonton Oilers", 
+            "1988": "Edmonton Oilers"
         }, 
         "name": "Mark Messier", 
         "winCount": "6"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1897": "Montreal Victorias"
+        }, 
         "name": "Harry Messy", 
         "winCount": "1"
     }, 
@@ -5344,42 +6445,58 @@
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1992": "Pittsburgh Penguins"
+        }, 
         "name": "Dave Michayluk", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1961": "Chicago Black Hawks"
+        }, 
         "name": "Stan Mikita", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2007": "Anaheim Ducks"
+        }, 
         "name": "Andrew Miller", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1932": "Toronto Maple Leafs"
+        }, 
         "name": "Earl Miller", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1928": "New York Rangers"
+        }, 
         "name": "Joe Miller", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1935": "Montreal Maroons"
+        }, 
         "name": "Bill Miller", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1998": "Detroit Red Wings"
+        }, 
         "name": "Dmitri Mironov", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1922": "Toronto St. Pats"
+        }, 
         "name": "Ivan Mitchell", 
         "winCount": "1"
     }, 
@@ -5392,32 +6509,44 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1999": "Dallas Stars"
+        }, 
         "name": "Mike Modano", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2004": "Tampa Bay Lightning"
+        }, 
         "name": "Fredrik Modin", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2007": "Anaheim Ducks"
+        }, 
         "name": "Travis Moen", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2000": "New Jersey Devils"
+        }, 
         "name": "Alexander Mogilny", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1897": "Montreal Victorias"
+        }, 
         "name": "Percy Molson", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1986": "Montreal Canadiens"
+        }, 
         "name": "Sergio Momesso", 
         "winCount": "1"
     }, 
@@ -5448,7 +6577,9 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1938": "Chicago Black Hawks"
+        }, 
         "name": "Alfie Moore", 
         "winCount": "1"
     }, 
@@ -5492,12 +6623,16 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1917": "Seattle Metropolitans"
+        }, 
         "name": "Bernie Morris", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1945": "Toronto Maple Leafs"
+        }, 
         "name": "Elwyn Morris", 
         "winCount": "1"
     }, 
@@ -5532,40 +6667,54 @@
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1943": "Detroit Red Wings"
+        }, 
         "name": "Alex Motter", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2007": "Anaheim Ducks"
+        }, 
         "name": "Joe Motzko", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1943": "Detroit Red Wings"
+        }, 
         "name": "Johnny Mowers", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2001": "Colorado Avalanche"
+        }, 
         "name": "Bryan Muir", 
         "winCount": "1"
     }, 
     {
         "wins": {
             "1991": "Pittsburgh Penguins", 
-            "1992": "Pittsburgh Penguins"
+            "1992": "Pittsburgh Penguins", 
+            "1989": "Calgary Flames"
         }, 
         "name": "Joe Mullen", 
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1993": "Montreal Canadiens"
+        }, 
         "name": "Kirk Muller", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1918": "Toronto Arenas", 
+            "1913": "Quebec Bulldogs"
+        }, 
         "name": "Harry Mummery", 
         "winCount": "2"
     }, 
@@ -5579,7 +6728,9 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1926": "Montreal Maroons"
+        }, 
         "name": "Dunc Munro", 
         "winCount": "1"
     }, 
@@ -5600,7 +6751,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1990": "Edmonton Oilers"
+        }, 
         "name": "Joe Murphy", 
         "winCount": "1"
     }, 
@@ -5615,77 +6768,110 @@
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1961": "Chicago Black Hawks", 
+            "1970": "Boston Bruins"
+        }, 
         "name": "Ron Murphy", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2016": "Pittsburgh Penguins"
+        }, 
         "name": "Matt Murray", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1996": "Colorado Avalanche"
+        }, 
         "name": "Troy Murray", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1989": "Calgary Flames"
+        }, 
         "name": "Dana Murzyn", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1894": "Montreal AAA"
+        }, 
         "name": "Auberdy Mussen", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1894": "Montreal AAA"
+        }, 
         "name": "Clarence Mussen", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2014": "Los Angeles Kings"
+        }, 
         "name": "Jake Muzzin", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1971": "Montreal Canadiens"
+        }, 
         "name": "Phil Myre", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1985": "Edmonton Oilers", 
+            "1979": "Montreal Canadiens"
+        }, 
         "name": "Mark Napier", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1986": "Montreal Canadiens"
+        }, 
         "name": "Mats Naslund", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1989": "Calgary Flames"
+        }, 
         "name": "Rick Nattress", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1992": "Pittsburgh Penguins"
+        }, 
         "name": "Mike Needham", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2004": "Tampa Bay Lightning"
+        }, 
         "name": "Stanislav Neckar", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2000": "New Jersey Devils", 
+            "1994": "New York Rangers"
+        }, 
         "name": "Sergei Nemchinov", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1961": "Chicago Black Hawks"
+        }, 
         "name": "Eric Nesterenko", 
         "winCount": "1"
     }, 
@@ -5706,7 +6892,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2007": "Anaheim Ducks"
+        }, 
         "name": "Rob Jr. Niedermayer", 
         "winCount": "1"
     }, 
@@ -5714,23 +6902,32 @@
         "wins": {
             "2000": "New Jersey Devils", 
             "1995": "New Jersey Devils", 
-            "1903": "New Jersey Devils"
+            "1903": "New Jersey Devils", 
+            "2007": "Anaheim Ducks"
         }, 
         "name": "Scott Niedermayer", 
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2010": "Chicago BlackHawks"
+        }, 
         "name": "Antti Niemi", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2001": "Colorado Avalanche"
+        }, 
         "name": "Ville Nieminen", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1999": "Dallas Stars", 
+            "2003": "New Jersey Devils", 
+            "1989": "Calgary Flames"
+        }, 
         "name": "Joe Nieuwendyk", 
         "winCount": "3"
     }, 
@@ -5739,31 +6936,39 @@
             "1920": "Ottawa Senators", 
             "1921": "Ottawa Senators", 
             "1923": "Ottawa Senators", 
+            "1915": "Vancouver Millionaires", 
             "1927": "Ottawa Senators"
         }, 
         "name": "Frank Nighbor", 
         "winCount": "5"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1986": "Montreal Canadiens"
+        }, 
         "name": "Chris Nilan", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1987": "Edmonton Oilers"
+        }, 
         "name": "Kent Nilsson", 
         "winCount": "1"
     }, 
     {
         "wins": {
             "1918": "Toronto Maple Leafs", 
-            "1922": "Toronto Maple Leafs"
+            "1922": "Toronto Maple Leafs", 
+            "1926": "Montreal Maroons"
         }, 
         "name": "Reg Noble", 
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2015": "Chicago Blackhawks"
+        }, 
         "name": "Joakim Nordstrom", 
         "winCount": "1"
     }, 
@@ -5776,22 +6981,30 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1922": "Toronto Maple Leafs"
+        }, 
         "name": "Pat Nolan", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1974": "Philadelphia Flyers"
+        }, 
         "name": "Simon Nolet", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1994": "New York Rangers"
+        }, 
         "name": "Brian Noonan", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1935": "Montreal Maroons"
+        }, 
         "name": "Lawrence Northcott", 
         "winCount": "1"
     }, 
@@ -5815,12 +7028,16 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1912": "Quebec Bulldogs"
+        }, 
         "name": "Eddie Oatman", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1894": "Montreal AAA"
+        }, 
         "name": "Eddie O'Brien", 
         "winCount": "1"
     }, 
@@ -5833,12 +7050,16 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1993": "Montreal Canadiens"
+        }, 
         "name": "Lyle Odelein", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2007": "Anaheim Ducks"
+        }, 
         "name": "Sean O'Donnell", 
         "winCount": "1"
     }, 
@@ -5851,22 +7072,30 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2002": "Detroit Red Wings"
+        }, 
         "name": "Fredrik Olausson", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1994": "New York Rangers"
+        }, 
         "name": "Eddie Olczyk", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1929": "Boston Bruins"
+        }, 
         "name": "Harold Oliver", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2000": "New Jersey Devils"
+        }, 
         "name": "Krzysztof Oliwa", 
         "winCount": "1"
     }, 
@@ -5875,13 +7104,16 @@
             "1957": "Montreal Canadiens", 
             "1956": "Montreal Canadiens", 
             "1958": "Montreal Canadiens", 
-            "1953": "Montreal Canadiens"
+            "1953": "Montreal Canadiens", 
+            "1962": "Toronto Maple Leafs"
         }, 
         "name": "Bert Olmstead", 
         "winCount": "5"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1945": "Toronto Maple Leafs"
+        }, 
         "name": "Tom O\u2019Neill", 
         "winCount": "1"
     }, 
@@ -5902,7 +7134,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2009": "Pittsburgh Penguins"
+        }, 
         "name": "Brooks Orpik", 
         "winCount": "1"
     }, 
@@ -5916,17 +7150,23 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1989": "Calgary Flames"
+        }, 
         "name": "Joel Otto", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1929": "Boston Bruins"
+        }, 
         "name": "George Owen", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1996": "Colorado Avalanche"
+        }, 
         "name": "Sandis Ozolinsh", 
         "winCount": "1"
     }, 
@@ -5939,17 +7179,23 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2007": "Anaheim Ducks"
+        }, 
         "name": "Samuel Pahlsson", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2011": "Boston Bruins"
+        }, 
         "name": "Daniel Paille", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1938": "Chicago Black Hawks"
+        }, 
         "name": "Pete Palangio", 
         "winCount": "1"
     }, 
@@ -5978,45 +7224,60 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2001": "Colorado Avalanche"
+        }, 
         "name": "Scott Parker", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2007": "Anaheim Ducks"
+        }, 
         "name": "George Parros", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1893": "Montreal AAA"
+        }, 
         "name": "Tom Paton", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1915": "Vancouver Millionaires"
+        }, 
         "name": "Frank Patrick", 
         "winCount": "1"
     }, 
     {
         "wins": {
             "1906": "Montreal Wanderers", 
-            "1907": "Montreal Wanderers"
+            "1907": "Montreal Wanderers", 
+            "1928": "New York Rangers"
         }, 
         "name": "Lester Patrick", 
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1940": "New York Rangers"
+        }, 
         "name": "Lynn Patrick", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1940": "New York Rangers"
+        }, 
         "name": "Murray Patrick", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1989": "Calgary Flames"
+        }, 
         "name": "Colin Patterson", 
         "winCount": "1"
     }, 
@@ -6031,42 +7292,59 @@
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2014": "Los Angeles Kings"
+        }, 
         "name": "Tanner Pearson", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1991": "Pittsburgh Penguins"
+        }, 
         "name": "Barry Pederson", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1995": "New Jersey Devils"
+        }, 
         "name": "Mike Peluso", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2007": "Anaheim Ducks", 
+            "2012": "Los Angeles Kings"
+        }, 
         "name": "Dustin Penner", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1986": "Montreal Canadiens"
+        }, 
         "name": "Steve Penney", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1989": "Calgary Flames"
+        }, 
         "name": "Jim Peplinski", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2004": "Tampa Bay Lightning"
+        }, 
         "name": "Eric Perrin", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2007": "Anaheim Ducks"
+        }, 
         "name": "Corey Perry", 
         "winCount": "1"
     }, 
@@ -6081,30 +7359,40 @@
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1965": "Montreal Canadiens", 
+            "1972": "Boston Bruins"
+        }, 
         "name": "Garry Peters", 
         "winCount": "2"
     }, 
     {
         "wins": {
             "1954": "Detroit Red Wings", 
+            "1946": "Montreal Canadiens", 
             "1950": "Detroit Red Wings"
         }, 
         "name": "Jimmy Sr. Peters", 
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1993": "Montreal Canadiens"
+        }, 
         "name": "Oleg Petrov", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1929": "Boston Bruins"
+        }, 
         "name": "Eric Pettinger", 
         "winCount": "1"
     }, 
     {
         "wins": {
+            "1933": "New York Rangers", 
+            "1939": "Boston Bruins", 
             "1937": "Detroit Red Wings", 
             "1936": "Detroit Red Wings"
         }, 
@@ -6112,57 +7400,80 @@
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2011": "Boston Bruins"
+        }, 
         "name": "Rich Peverley", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1926": "Montreal Maroons"
+        }, 
         "name": "Bill Phillips", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1907": "Kenora Thistles"
+        }, 
         "name": "Russell Phillips", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1907": "Kenora Thistles", 
+            "1903": "Montreal AAA"
+        }, 
         "name": "Tommy Phillips", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1965": "Montreal Canadiens"
+        }, 
         "name": "Noel Picard", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1991": "Pittsburgh Penguins"
+        }, 
         "name": "Frank Pietrangelo", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1940": "New York Rangers"
+        }, 
         "name": "Alf Pike", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1961": "Chicago Black Hawks"
+        }, 
         "name": "Pierre Pilote", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1916": "Montreal Canadiens"
+        }, 
         "name": "Didier Pitre", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1946": "Montreal Canadiens"
+        }, 
         "name": "Gerry Plamondon", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1999": "Dallas Stars"
+        }, 
         "name": "Derek Plante", 
         "winCount": "1"
     }, 
@@ -6179,27 +7490,37 @@
         "winCount": "6"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1973": "Montreal Canadeins"
+        }, 
         "name": "Michel Plasse", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2001": "Colorado Avalanche"
+        }, 
         "name": "Shjon Podein", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1947": "Toronto Maple Leafs"
+        }, 
         "name": "Norman Poile", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1977": "Montreal Canadiens"
+        }, 
         "name": "Mike Polich", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1939": "Boston Bruins"
+        }, 
         "name": "Jack Portland", 
         "winCount": "1"
     }, 
@@ -6222,7 +7543,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1916": "Montreal Canadiens"
+        }, 
         "name": "George Poulin", 
         "winCount": "1"
     }, 
@@ -6236,42 +7559,61 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1913": "Quebec Bulldogs"
+        }, 
         "name": "James Power", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2001": "Colorado Avalanche", 
+            "2004": "Tampa Bay Lightning"
+        }, 
         "name": "Nolan Pratt", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1940": "New York Rangers", 
+            "1945": "Toronto Maple Leafs"
+        }, 
         "name": "Water Pratt", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1966": "Montreal Canadiens"
+        }, 
         "name": "Noel Price", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1992": "Pittsburgh Penguins"
+        }, 
         "name": "Ken Priestlay", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1932": "Toronto Maple Leafs"
+        }, 
         "name": "Joe Primeau", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1912": "Quebec Bulldogs", 
+            "1916": "Montreal Canadiens"
+        }, 
         "name": "George Prodgers", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2007": "Anaheim Ducks"
+        }, 
         "name": "Chris Pronger", 
         "winCount": "1"
     }, 
@@ -6289,6 +7631,7 @@
         "wins": {
             "1955": "Detroit Red Wings", 
             "1954": "Detroit Red Wings", 
+            "1967": "Toronto Maple Leafs", 
             "1950": "Detroit Red Wings", 
             "1952": "Detroit Red Wings"
         }, 
@@ -6311,7 +7654,9 @@
         "winCount": "9"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1989": "Calgary Flames"
+        }, 
         "name": "Sergei Pryakhin", 
         "winCount": "1"
     }, 
@@ -6344,17 +7689,23 @@
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1895": "Montreal Victorias"
+        }, 
         "name": "William Pullan", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1997": "Detroit Red Wings"
+        }, 
         "name": "Jamie Pushor", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1931": "Montreal Canadiens"
+        }, 
         "name": "Jean Pusie", 
         "winCount": "1"
     }, 
@@ -6367,35 +7718,48 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2015": "Chicago Blackhawks"
+        }, 
         "name": "Antti Raanta", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1993": "Montreal Canadiens"
+        }, 
         "name": "Andre Raciot", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1991": "Pittsburgh Penguins"
+        }, 
         "name": "Bruce Racine", 
         "winCount": "1"
     }, 
     {
         "wins": {
             "2003": "New Jersey Devils", 
-            "2000": "New Jersey Devils"
+            "2000": "New Jersey Devils", 
+            "2008": "Detroit Red Wings"
         }, 
         "name": "Brian Rafalski", 
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1993": "Montreal Canadiens", 
+            "1989": "Calgary Flames"
+        }, 
         "name": "Rob Ramage", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1918": "Toronto Arenas", 
+            "1922": "Toronto St. Pats"
+        }, 
         "name": "Ken Randall", 
         "winCount": "2"
     }, 
@@ -6408,17 +7772,23 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1895": "Montreal Victorias"
+        }, 
         "name": "Norm Rankin", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2011": "Boston Bruins"
+        }, 
         "name": "Tuukka Rask", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1946": "Montreal Canadiens"
+        }, 
         "name": "Ken Reardon", 
         "winCount": "1"
     }, 
@@ -6431,7 +7801,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1988": "Edmonton Oilers"
+        }, 
         "name": "Daryl Reaugh", 
         "winCount": "1"
     }, 
@@ -6444,12 +7816,18 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1991": "Pittsburgh Penguins", 
+            "2011": "Boston Bruins", 
+            "2006": "Carolina Hurricanes"
+        }, 
         "name": "Mark Recchi", 
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1990": "Edmonton Oilers"
+        }, 
         "name": "Eldon Reddick", 
         "winCount": "1"
     }, 
@@ -6462,7 +7840,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2014": "Los Angeles Kings"
+        }, 
         "name": "Robyn Regehr", 
         "winCount": "1"
     }, 
@@ -6475,17 +7855,24 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1999": "Dallas Stars", 
+            "2001": "Colorado Avalanche"
+        }, 
         "name": "Dave Reid", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2001": "Colorado Avalanche"
+        }, 
         "name": "Steven Reinprecht", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1980": "New York Islanders"
+        }, 
         "name": "Glenn Resch", 
         "winCount": "1"
     }, 
@@ -6498,12 +7885,16 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2003": "New Jersey Devils"
+        }, 
         "name": "Pascal Rheaume", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1996": "Colorado Avalanche"
+        }, 
         "name": "Mike Ricci", 
         "winCount": "1"
     }, 
@@ -6539,7 +7930,10 @@
         "winCount": "8"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2015": "Chicago Blackhawks", 
+            "2004": "Tampa Bay Lightning"
+        }, 
         "name": "Brad Richards", 
         "winCount": "2"
     }, 
@@ -6552,7 +7946,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2012": "Los Angeles Kings"
+        }, 
         "name": "Brad Richardson", 
         "winCount": "1"
     }, 
@@ -6565,17 +7961,24 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1986": "Montreal Canadiens", 
+            "1995": "New Jersey Devils"
+        }, 
         "name": "Stephane Richer", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1917": "Seattle Metropolitans"
+        }, 
         "name": "Roy Rickey", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1994": "New York Rangers"
+        }, 
         "name": "Mike Richter", 
         "winCount": "1"
     }, 
@@ -6588,7 +7991,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1917": "Seattle Metropolitans"
+        }, 
         "name": "Jim Riley", 
         "winCount": "1"
     }, 
@@ -6611,22 +8016,30 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1922": "Toronto St. Pats"
+        }, 
         "name": "John Ross Roach", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1993": "Montreal Cadiens"
+        }, 
         "name": "Mario Roberge", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1971": "Montreal Canadiens"
+        }, 
         "name": "Phillip Roberto", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1989": "Calgary Flames"
+        }, 
         "name": "Gary Roberts", 
         "winCount": "1"
     }, 
@@ -6639,7 +8052,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1910": "Ottawa Senators"
+        }, 
         "name": "Gordon Roberts", 
         "winCount": "1"
     }, 
@@ -6655,17 +8070,23 @@
         "winCount": "5"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1937": "Detroit Red Wings"
+        }, 
         "name": "Earl Robertson", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1932": "Toronto Maple Leafs"
+        }, 
         "name": "Fred Robertson", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1935": "Montreal Maroons"
+        }, 
         "name": "Earl Robinson", 
         "winCount": "1"
     }, 
@@ -6682,7 +8103,9 @@
         "winCount": "6"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2002": "Detroit Red Wings"
+        }, 
         "name": "Luc Robitaille", 
         "winCount": "1"
     }, 
@@ -6695,22 +8118,30 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1929": "Boston Bruins"
+        }, 
         "name": "Eddie Rodden", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1951": "Toronto Maple Leafs"
+        }, 
         "name": "Erwin Rollins", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1995": "New Jersey Devils"
+        }, 
         "name": "Brian Rolston", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2007": "Anaheim Ducks"
+        }, 
         "name": "Aaron Rome", 
         "winCount": "1"
     }, 
@@ -6723,17 +8154,23 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1993": "Montreal Canadiens"
+        }, 
         "name": "Ed Ronan", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1916": "Montreal Canadiens"
+        }, 
         "name": "Skene Ronan", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1986": "Montreal Canadiens"
+        }, 
         "name": "Steve Rooney", 
         "winCount": "1"
     }, 
@@ -6746,17 +8183,24 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1907": "Kenora", 
+            "1908": "Montreal Wanderers"
+        }, 
         "name": "Art Ross", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1926": "Montreal Maroons"
+        }, 
         "name": "Sammy Rothschild", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1937": "Detroit Red Wings"
+        }, 
         "name": "Orville Roulston", 
         "winCount": "1"
     }, 
@@ -6777,12 +8221,16 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1917": "Seattle Metropolitans"
+        }, 
         "name": "Bobby Rowe", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2004": "Tampa Bay Lightning"
+        }, 
         "name": "Andre Roy", 
         "winCount": "1"
     }, 
@@ -6823,17 +8271,23 @@
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2004": "Tampa Bay Lightning"
+        }, 
         "name": "Darren Rumble", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2015": "Chicago Blackhawks"
+        }, 
         "name": "David Rundblad", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2003": "New Jersey Devils"
+        }, 
         "name": "Mike Rupp", 
         "winCount": "1"
     }, 
@@ -6848,17 +8302,23 @@
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2016": "Pittsburgh Penguins"
+        }, 
         "name": "Bryan Rust", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1996": "Colorado Avalanche"
+        }, 
         "name": "Warren Rychel", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2011": "Boston Bruins"
+        }, 
         "name": "Michael Ryder", 
         "winCount": "1"
     }, 
@@ -6871,7 +8331,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1989": "Calgary Flames"
+        }, 
         "name": "Ken Sabourin", 
         "winCount": "1"
     }, 
@@ -6892,12 +8354,16 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1948": "Toronto Maple Leafs"
+        }, 
         "name": "Phil Samis", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2008": "Detroit Red wings"
+        }, 
         "name": "Mikael Samuelsson", 
         "winCount": "1"
     }, 
@@ -6910,12 +8376,16 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1992": "Pittsburgh Penguins"
+        }, 
         "name": "Kjell Samuelsson", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1939": "Boston Bruins"
+        }, 
         "name": "Charlie Sands", 
         "winCount": "1"
     }, 
@@ -6928,27 +8398,37 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1997": "Detroit Red Wings"
+        }, 
         "name": "Tomas Sandstrom", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2004": "Tampa Bay Lightning"
+        }, 
         "name": "Cory Sarich", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2009": "Pittsburgh Penguins"
+        }, 
         "name": "Miroslav Satan", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1993": "Montreal Canadiens"
+        }, 
         "name": "Denis Savard", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2011": "Boston Bruins"
+        }, 
         "name": "Marc Savard", 
         "winCount": "1"
     }, 
@@ -6978,6 +8458,7 @@
         "wins": {
             "1955": "Detroit Red Wings", 
             "1954": "Detroit Red Wings", 
+            "1967": "Toronto Maple Leafs", 
             "1952": "Detroit Red Wings"
         }, 
         "name": "Terry Sawchuk", 
@@ -6985,6 +8466,7 @@
     }, 
     {
         "wins": {
+            "1902": "Winnipeg Victorias", 
             "1899": "Montreal Shamrocks", 
             "1900": "Montreal Shamrocks"
         }, 
@@ -6992,7 +8474,9 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1952": "Detroit Red Wings"
+        }, 
         "name": "Enio Schlizzi", 
         "winCount": "1"
     }, 
@@ -7005,7 +8489,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1993": "Montreal Canadiens"
+        }, 
         "name": "Matthieu Schneider", 
         "winCount": "1"
     }, 
@@ -7018,12 +8504,16 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1970": "Boston Bruins"
+        }, 
         "name": "Danny Schock", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2014": "Los Angeles Kings"
+        }, 
         "name": "Jeff Schultz", 
         "winCount": "1"
     }, 
@@ -7036,27 +8526,38 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2016": "Pittsburgh Penguins"
+        }, 
         "name": "Justin Schultz", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2003": "New Jersey Devils"
+        }, 
         "name": "Corey Schwab", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1904": "Ottawa Senators"
+        }, 
         "name": "Unknown Scott", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1928": "New York Rangers"
+        }, 
         "name": "Laurie Scott", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2009": "Pittsburgh Penguins", 
+            "2012": "Los Angeles Kings"
+        }, 
         "name": "Rob Scuderi", 
         "winCount": "2"
     }, 
@@ -7070,27 +8571,38 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1915": "Vancouver Millionaires"
+        }, 
         "name": "Jim Seaborn", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2011": "Boston Bruins"
+        }, 
         "name": "Tyler Seguin", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1933": "New York Rangers", 
+            "1938": "Chicago Black Hawks"
+        }, 
         "name": "Earl Seibert", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2011": "Boston Bruins"
+        }, 
         "name": "Dennis Seidenberg", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2007": "Anaheim Ducks"
+        }, 
         "name": "Teemu Selanne", 
         "winCount": "1"
     }, 
@@ -7103,17 +8615,23 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1990": "Edmonton Oilers"
+        }, 
         "name": "Anatoli Semenov", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1999": "Dallas Stars"
+        }, 
         "name": "Brent Severyn", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1979": "Montreal Canadiens"
+        }, 
         "name": "Richard Sevigny", 
         "winCount": "1"
     }, 
@@ -7136,7 +8654,9 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2007": "Anaheim Ducks"
+        }, 
         "name": "Ryan Shannon", 
         "winCount": "1"
     }, 
@@ -7158,27 +8678,37 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2016": "Pittsburgh Penguins"
+        }, 
         "name": "Conor Sheary", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1971": "Montreal Canadiens"
+        }, 
         "name": "Bobby Sheehan", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1896": "Winnipeg Victorias"
+        }, 
         "name": "Jack Sheppard", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1934": "Chicago Black Hawks"
+        }, 
         "name": "John Sheppard", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1937": "Detroit Red Wings"
+        }, 
         "name": "John Sherf", 
         "winCount": "1"
     }, 
@@ -7191,17 +8721,23 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1940": "New York Rangers"
+        }, 
         "name": "Alex Shibicky", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1935": "Montreal Maroons"
+        }, 
         "name": "Al Shields", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1938": "Chicago Black Hawks"
+        }, 
         "name": "John Shill", 
         "winCount": "1"
     }, 
@@ -7234,12 +8770,17 @@
         "winCount": "5"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1933": "New York Rangers", 
+            "1926": "Montreal Maroons"
+        }, 
         "name": "Babe Siebert", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1999": "Dallas Stars"
+        }, 
         "name": "Jon Sim", 
         "winCount": "1"
     }, 
@@ -7253,12 +8794,16 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1996": "Colorado Avalanche"
+        }, 
         "name": "Chris Simon", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1943": "Detroit Red Wings"
+        }, 
         "name": "John Simon", 
         "winCount": "1"
     }, 
@@ -7271,17 +8816,23 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1903": "Ottawa Senators"
+        }, 
         "name": "Percy Sims", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1918": "Toronto Arenas"
+        }, 
         "name": "Alf Skinner", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2001": "Colorado Avalanche"
+        }, 
         "name": "Martin Skoula", 
         "winCount": "1"
     }, 
@@ -7295,42 +8846,61 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1986": "Montreal Canadiens", 
+            "1999": "Dallas Stars"
+        }, 
         "name": "Brian Skrudland", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2002": "Detroit Red Wings"
+        }, 
         "name": "Jiri Slegr", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1999": "Dallas Stars"
+        }, 
         "name": "Blake Sloan", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1951": "Toronto Maple Leafs", 
+            "1961": "Chicago"
+        }, 
         "name": "Tod Sloan", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1910": "Ottawa Senators", 
+            "1908": "Montreal Wanderers"
+        }, 
         "name": "Walter Smaill", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2003": "New Jersey Devils"
+        }, 
         "name": "Richard Smehlik", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1967": "Toronto Maple Leafs"
+        }, 
         "name": "Al Smith", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1927": "Ottawa Senators"
+        }, 
         "name": "Alex Smith", 
         "winCount": "1"
     }, 
@@ -7344,7 +8914,9 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2013": "Chicago Blackhawks"
+        }, 
         "name": "Ben Smith", 
         "winCount": "1"
     }, 
@@ -7359,12 +8931,16 @@
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1986": "Montreal Canadiens"
+        }, 
         "name": "Bobby Smith", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1940": "New York Rangers"
+        }, 
         "name": "Clint Smith", 
         "winCount": "1"
     }, 
@@ -7377,17 +8953,23 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1941": "Boston Bruins"
+        }, 
         "name": "Des Smith", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1990": "Edmonton OIlers"
+        }, 
         "name": "Geoff Smith", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1922": "Toronto St. Pats"
+        }, 
         "name": "Grathton Smith", 
         "winCount": "1"
     }, 
@@ -7400,7 +8982,10 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1906": "Ottawa Senators", 
+            "1908": "Montreal Wanderers"
+        }, 
         "name": "Harry Smith", 
         "winCount": "2"
     }, 
@@ -7422,17 +9007,24 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1935": "Montreal Maroons", 
+            "1927": "Ottawa Senators"
+        }, 
         "name": "Hooley Smith", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1970": "Boston Bruins"
+        }, 
         "name": "Rick Smith", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1940": "New York Rangers"
+        }, 
         "name": "Stanley Smith", 
         "winCount": "1"
     }, 
@@ -7446,27 +9038,38 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1906": "Ottawa Senators", 
+            "1913": "Quebec Bulldogs"
+        }, 
         "name": "Tommy Smith", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1922": "Toronto St. pats"
+        }, 
         "name": "Rod Smylie", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1986": "Montreal Candiens"
+        }, 
         "name": "Doug Soetaert", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1933": "New York Rangers"
+        }, 
         "name": "Art Somers", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2010": "Chicago Blackhawks"
+        }, 
         "name": "Brent Sopel", 
         "winCount": "1"
     }, 
@@ -7479,32 +9082,44 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1970": "Boston Bruins"
+        }, 
         "name": "Bill Speer", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1903": "Ottawa Senators"
+        }, 
         "name": "Charles Spittal", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1922": "Toronto St. Pats"
+        }, 
         "name": "Ted Stackhouse", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2006": "Carolina Hurricanes"
+        }, 
         "name": "Eric Staal", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2009": "Pittsburgh Penguins"
+        }, 
         "name": "Jordan Staal", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2013": "Chicago Blackhawks"
+        }, 
         "name": "Viktor Stalberg", 
         "winCount": "1"
     }, 
@@ -7527,7 +9142,9 @@
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1915": "Vancouver Millionaries"
+        }, 
         "name": "Barney Stanley", 
         "winCount": "1"
     }, 
@@ -7550,7 +9167,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1934": "Chicago Black Hawks"
+        }, 
         "name": "Joe Starke", 
         "winCount": "1"
     }, 
@@ -7564,12 +9183,16 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1967": "Toronto Maple Leafs"
+        }, 
         "name": "Peter Stemkowski", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1975": "Philadelphia Flyers"
+        }, 
         "name": "Wayne Stephenson", 
         "winCount": "1"
     }, 
@@ -7591,7 +9214,9 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2003": "New Jersey Devils"
+        }, 
         "name": "Turner Stevenson", 
         "winCount": "1"
     }, 
@@ -7620,7 +9245,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1926": "Montreal Maroons"
+        }, 
         "name": "Nels Stewart", 
         "winCount": "1"
     }, 
@@ -7634,7 +9261,10 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2006": "Carolina Hurricanes", 
+            "2004": "Tampa Bay Lightning"
+        }, 
         "name": "Corey Stillman", 
         "winCount": "2"
     }, 
@@ -7651,13 +9281,16 @@
             "1957": "Montreal Canadiens", 
             "1956": "Montreal Canadiens", 
             "1958": "Montreal Canadiens", 
-            "1953": "Montreal Canadiens"
+            "1953": "Montreal Canadiens", 
+            "1961": "Chicago Black Hawks"
         }, 
         "name": "Dollard St. Laurent", 
         "winCount": "5"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2004": "Tampa Bay Lightning"
+        }, 
         "name": "Martin St. Louis", 
         "winCount": "1"
     }, 
@@ -7670,7 +9303,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2008": "Detroit Red Wings"
+        }, 
         "name": "Brad Stuart", 
         "winCount": "1"
     }, 
@@ -7678,6 +9313,7 @@
         "wins": {
             "1911": "Ottawa Senators", 
             "1910": "Ottawa Senators", 
+            "1908": "Montreal Wanderers", 
             "1909": "Ottawa Senators"
         }, 
         "name": "Bruce Stuart", 
@@ -7692,17 +9328,23 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1922": "Toronto St. Pats"
+        }, 
         "name": "Bill Stuart", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1984": "Edmonton Oilers"
+        }, 
         "name": "Raimo Summanen", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1989": "Calgary Flames"
+        }, 
         "name": "Gary Suter", 
         "winCount": "1"
     }, 
@@ -7725,22 +9367,31 @@
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2000": "New Jersey Devils"
+        }, 
         "name": "Ken Sutton", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1986": "Montreal Canadiens"
+        }, 
         "name": "Petr Svoboda", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1999: Tampa Bay Lightning": "Dallas Stars"
+        }, 
         "name": "Darryl Sydor", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2000": "New Jersey Devils", 
+            "2009": "Pittsburgh Penguins"
+        }, 
         "name": "Petr Sykora", 
         "winCount": "2"
     }, 
@@ -7766,17 +9417,23 @@
         "winCount": "7"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2009": "Pittsburgh Penguins"
+        }, 
         "name": "Maxime Talbot", 
         "winCount": "1)"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1980": "New York Islanders"
+        }, 
         "name": "Steven Tambellini", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2001": "Colorado Avalanche"
+        }, 
         "name": "Alex Tanguay", 
         "winCount": "1"
     }, 
@@ -7797,17 +9454,25 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1915": "Vancouver Millionaires", 
+            "1909": "Ottawa Senators"
+        }, 
         "name": "Fred Taylor", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1949": "Toronto Maple Leafs"
+        }, 
         "name": "Harry Taylor", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2004": "Tampa Bay Lightning", 
+            "1997": "Detroit Red Wings"
+        }, 
         "name": "Tim Taylor", 
         "winCount": "2"
     }, 
@@ -7820,12 +9485,16 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1942": "Toronto Maple Leafs"
+        }, 
         "name": "Billy Sr. Taylor", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1922": "Toronto St. Pats"
+        }, 
         "name": "W. Teale", 
         "winCount": "1"
     }, 
@@ -7838,17 +9507,23 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2015": "Chicago Blackhawks"
+        }, 
         "name": "Teuvo Ter\u00e4v\u00e4inen", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2011": "Boston Bruins"
+        }, 
         "name": "Tim Thomas", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1929": "Boston Bruins"
+        }, 
         "name": "Cecil Thompson", 
         "winCount": "1"
     }, 
@@ -7864,6 +9539,7 @@
     }, 
     {
         "wins": {
+            "1928": "New York Rangers", 
             "1938": "Chicago Black Hawks", 
             "1934": "Chicago Black Hawks"
         }, 
@@ -7871,12 +9547,17 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2011": "Boston Bruins", 
+            "2007": "Anaheim Ducks"
+        }, 
         "name": "Shawn Thornton", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1952": "Detroit Red Wings"
+        }, 
         "name": "Bill Tibbs", 
         "winCount": "1"
     }, 
@@ -7899,12 +9580,16 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2015": "Chicago Blackhawks"
+        }, 
         "name": "Kimmo Timonen", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1992": "Pittsburgh Penguins"
+        }, 
         "name": "Rick Tocchet", 
         "winCount": "1"
     }, 
@@ -7918,7 +9603,9 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2014": "Los Angeles Kings"
+        }, 
         "name": "Tyler Toffoli", 
         "winCount": "1"
     }, 
@@ -7985,7 +9672,9 @@
         "winCount": "6"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1935": "Montreal Maroons"
+        }, 
         "name": "Dave Trottier", 
         "winCount": "1"
     }, 
@@ -7998,7 +9687,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1999": "Dallas Stars"
+        }, 
         "name": "Roman Turek", 
         "winCount": "1"
     }, 
@@ -8014,7 +9705,10 @@
         "winCount": "5"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2003": "New Jersey Devils", 
+            "2006": "Carolina Hurricanes"
+        }, 
         "name": "Oleg Tverdovsky", 
         "winCount": "2"
     }, 
@@ -8028,12 +9722,17 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1968": "Montreal Canadiens", 
+            "1972": "Boston Bruins"
+        }, 
         "name": "Carol Vadnais", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1976": "Montreal Canadiens"
+        }, 
         "name": "John Van Boxmeer", 
         "winCount": "1"
     }, 
@@ -8046,37 +9745,52 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2015": "Chicago Blackhawks"
+        }, 
         "name": "Trevor van Riemsdyk", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1987": "Edmonton Oilers"
+        }, 
         "name": "Wayne Van Dorp", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2006": "Carolina Hurricanes"
+        }, 
         "name": "Josef Vasicek", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1961": "Chicago Black Hawks"
+        }, 
         "name": "Elmer Vasko", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1999": "Dallas Stars"
+        }, 
         "name": "Pat Verbeek", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2015": "Chicago Blackhawks"
+        }, 
         "name": "Antoine Vermette", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1997": "Detroit Red Wings", 
+            "1989": "Calgary Flames"
+        }, 
         "name": "Mike Vernon", 
         "winCount": "2"
     }, 
@@ -8097,7 +9811,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1938": "Chicago Black Hawks"
+        }, 
         "name": "Carl Voss", 
         "winCount": "1"
     }, 
@@ -8118,7 +9834,11 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1914": "Toronto Blueshirts", 
+            "1917": "Seattle Metropolitans", 
+            "1925": "Victoria Cougars"
+        }, 
         "name": "Jack Walker", 
         "winCount": "3"
     }, 
@@ -8131,12 +9851,16 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1896": "Montreal Victorias"
+        }, 
         "name": "William Wallance", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2006": "Carolina Hurricanes"
+        }, 
         "name": "Niclas Wallin", 
         "winCount": "1"
     }, 
@@ -8150,17 +9874,24 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1986": "Montreal Canadiens"
+        }, 
         "name": "Ryan Walter", 
         "winCount": "1)"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1967": "Toronto Maple Leafs", 
+            "1972": "Boston Bruins"
+        }, 
         "name": "Mike Walton", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1989": "Calgary Flames"
+        }, 
         "name": "Rick Wamsley", 
         "winCount": "1"
     }, 
@@ -8175,23 +9906,30 @@
     {
         "wins": {
             "1998": "Detroit Red Wings", 
+            "2006": "Carolina Hurricanes", 
             "1997": "Detroit Red Wings"
         }, 
         "name": "Aaron Ward", 
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2006": "Carolina Hurricanes"
+        }, 
         "name": "Cam Ward", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1935": "Montreal Maroons"
+        }, 
         "name": "Jimmy Ward", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1943": "Detroit Red Wings"
+        }, 
         "name": "Eddie Wares", 
         "winCount": "1"
     }, 
@@ -8204,12 +9942,15 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1965": "Montreal Canadiens"
+        }, 
         "name": "Bryan Watson", 
         "winCount": "1"
     }, 
     {
         "wins": {
+            "1943": "Detroit Red Wings", 
             "1948": "Toronto Maple Leafs", 
             "1949": "Toronto Maple Leafs", 
             "1951": "Toronto Maple Leafs", 
@@ -8235,7 +9976,10 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1940": "NY Rangers", 
+            "1944": "Montreal Canadiens"
+        }, 
         "name": "Phil Watson", 
         "winCount": "2"
     }, 
@@ -8248,22 +9992,30 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2006": "Carolina Hurricanes"
+        }, 
         "name": "Doug Weight", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1994": "New York Rangers"
+        }, 
         "name": "Jay Wells", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1935": "Montreal Maroons"
+        }, 
         "name": "Cy Wentworth", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2006": "Carolina Hurricanes"
+        }, 
         "name": "Glen Wesley", 
         "winCount": "1"
     }, 
@@ -8276,33 +10028,42 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2012": "Los Angeles Kings"
+        }, 
         "name": "Kevin Westgarth", 
         "winCount": "1"
     }, 
     {
         "wins": {
+            "1909": "Ottawa Senators", 
             "1906": "Ottawa Senators", 
+            "1907": "Kenora Thistles", 
             "1904": "Ottawa Senators", 
             "1905": "Ottawa Senators", 
-            "1903": "Ottawa Senators", 
-            "1909": "Ottawa Senators"
+            "1903": "Ottawa Senators"
         }, 
         "name": "Harry Westwick", 
         "winCount": "6"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1961": "Chicago Black Hawks"
+        }, 
         "name": "Ken Wharram", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1988": "Edmonton Oilers"
+        }, 
         "name": "Jim Wiemer", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1907": "Kenora Thistles"
+        }, 
         "name": "Fred Whitcroft", 
         "winCount": "1"
     }, 
@@ -8315,45 +10076,61 @@
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1905": "Ottawa Senators"
+        }, 
         "name": "Frank White", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2006": "Carolina Hurricanes"
+        }, 
         "name": "Ray Whitney", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1938": "Chicago Black Hawks"
+        }, 
         "name": "Art Wiebe", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2002": "Detroit Red Wings"
+        }, 
         "name": "Jason Williams", 
         "winCount": "1"
     }, 
     {
         "wins": {
             "2014": "Los Angeles Kings", 
+            "2006": "Carolina Hurricanes", 
             "2012": "Los Angeles Kings"
         }, 
         "name": "Justin Williams", 
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1896": "Montreal Victorias"
+        }, 
         "name": "Stanley Willett", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1914": "Toronto Blueshirts", 
+            "1917": "Seattle Metropolitans"
+        }, 
         "name": "Carol Wilson", 
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1914": "Toronto Blueshirts"
+        }, 
         "name": "Claude Wilson", 
         "winCount": "1"
     }, 
@@ -8368,7 +10145,9 @@
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1950": "Detroit Red Wings"
+        }, 
         "name": "Larry Wilson", 
         "winCount": "1"
     }, 
@@ -8383,17 +10162,23 @@
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1954": "Detroit Red Wings"
+        }, 
         "name": "Ross Wilson", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1929": "Boston Bruins"
+        }, 
         "name": "Hal Winkler", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1941": "Boston Bruins"
+        }, 
         "name": "Eddie Wiseman", 
         "winCount": "1"
     }, 
@@ -8407,7 +10192,9 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1996": "Colorado Avalanche"
+        }, 
         "name": "Craig Wolanin", 
         "winCount": "1"
     }, 
@@ -8420,7 +10207,9 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1903": "Ottawa Senators"
+        }, 
         "name": "Frank Wood", 
         "winCount": "1"
     }, 
@@ -8435,7 +10224,9 @@
         "winCount": "4"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1992": "Pittsburgh Penguins"
+        }, 
         "name": "Ken Wregget", 
         "winCount": "1"
     }, 
@@ -8456,7 +10247,10 @@
         "winCount": "2"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1991": "Pittsburgh Penguins", 
+            "1996": "Colorado Avalanche"
+        }, 
         "name": "Scott Young", 
         "winCount": "2"
     }, 
@@ -8478,32 +10272,45 @@
         "winCount": "3"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1984": "Edmonton Oilers"
+        }, 
         "name": "Mike Zanier", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1952": "Detroit Red Wings"
+        }, 
         "name": "Larry Zeidel", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1995": "New Jersey Devils"
+        }, 
         "name": "Valeri Zelepukin", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2008": "Detroit Red Wings"
+        }, 
         "name": "Henrik Zetterberg", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "2009": "Pittsburgh Penguins"
+        }, 
         "name": "Mike Zigomanis", 
         "winCount": "1"
     }, 
     {
-        "wins": {}, 
+        "wins": {
+            "1999": "Dallas Stars", 
+            "1994": "New York Rangers"
+        }, 
         "name": "Sergei Zubov", 
         "winCount": "2"
     }
