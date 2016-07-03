@@ -125,7 +125,3 @@ def parseYears(year):
     if(splitter is not ''):
         output = year.split(splitter)
     return output
-
-
-def updateTeamNodes(nodes, matrix):
-    return None
