@@ -19,7 +19,6 @@ def parse(fn, df):
 def parser(content, data):
     for line in content:
         player = {}
-        iterator = 0
         alternator = 'T'
         pd = line.split(',')
         player['last'] = pd[0].strip()
@@ -33,24 +32,29 @@ def parser(content, data):
             else:
                 year = i.strip()
                 year = year.decode('unicode_escape').encode('ascii', 'replace')
-                splitter = ''
-                if('-' in year):
-                    splitter = '-'
-                elif('???' in year):
-                    splitter = '???'
-                if(splitter is not ''):
-                    years = year.split(splitter)
+                while('???' in year or '-' in year):
+                    years = parseYears(year)
+                    year = ''
                     prefix = years[0][:2]
                     for index, val in enumerate(years[0:]):
+                        if('???' in val or '-' in val):
+                            year = val
+                            continue
                         if(len(val)<4):
-                            years[index] = prefix+str(val)
-                    for year in years:
-                        winningTeams[year] = teamName
-                else:
-                    winningTeams[year] = teamName
-                iterator += 1
+                            val = prefix+str(val)
+                        winningTeams[val] = teamName
                 alternator = 'T'
         player['wins'] = winningTeams
         player['winCount'] = pd[len(pd) - 1].strip().replace('{','').replace('}', '')
-        player['id'] = len(data)
         data.extend([player])
+
+def parseYears(year):
+    output = []
+    splitter = ''
+    if('-' in year):
+        splitter = '-'
+    elif('???' in year):
+        splitter = '???'
+    if(splitter is not ''):
+        output = year.split(splitter)
+    return output
