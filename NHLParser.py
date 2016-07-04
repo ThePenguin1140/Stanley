@@ -1,11 +1,14 @@
 import itertools
 import json
 
+PLAYER_GROUP = 2
+TEAM_GROUP = 1
+
 
 def buildTeamRosters(nodes):
     winningYears = {}
     for index, value in enumerate(nodes):
-        if(value['nodeType'] is 'player'):
+        if(value['group'] is PLAYER_GROUP):
             #add player to each roster
             for year, team in value['wins'].iteritems():
                 if(year not in winningYears.keys()):
@@ -16,7 +19,7 @@ def buildTeamRosters(nodes):
 
 
     for index, value in enumerate(nodes):
-        if(value['nodeType'] is 'team'):
+        if(value['group'] is TEAM_GROUP):
             #collect the winning years
             teamYears = {}
             for year, roster in value['wins'].iteritems():
@@ -27,7 +30,7 @@ def buildTeamRosters(nodes):
 def buildLinks(nodes):
     output = []
     for index, value in enumerate(nodes):
-        if(value['nodeType'] is 'team'):
+        if(value['group'] is TEAM_GROUP):
             for year, roster in value['wins'].iteritems():
                 for player in roster:
                     link = {
@@ -51,7 +54,7 @@ def buildNodes(data):
                     },
                     'winCount': 1,
                     'name': team,
-                    'nodeType': 'team'
+                    'group': TEAM_GROUP
                 }
             else:
                 if( year not in teams[team]['wins'] ):
@@ -112,7 +115,7 @@ def parser(content, data):
                 alternator = 'T'
         player['wins'] = winningTeams
         player['winCount'] = pd[len(pd) - 1].strip().replace('{','').replace('}', '')
-        player['nodeType'] = 'player'
+        player['group'] = PLAYER_GROUP
         data.extend([player])
 
 def parseYears(year):
