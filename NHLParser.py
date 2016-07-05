@@ -8,6 +8,7 @@ TEAM_GROUP = 1
 def buildTeamRosters(nodes):
     winningYears = {}
     for index, value in enumerate(nodes):
+        value['id'] = index
         if(value['group'] is PLAYER_GROUP):
             #add player to each roster
             for year, team in value['wins'].iteritems():
