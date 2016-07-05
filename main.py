@@ -2,7 +2,7 @@ import NHLParser
 import json
 
 data = NHLParser.parse_to_json("NHL_Winners.csv", "NHL_Winners.json")
-nodes = NHLParser.buildNodes(data)
+nodes = NHLParser.buildTeamNodes(data)
 
 NHLParser.buildTeamRosters(nodes)
 

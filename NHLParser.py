@@ -42,7 +42,7 @@ def buildLinks(nodes):
 
     return output
 
-def buildNodes(data):
+def buildTeamNodes(data):
     nodes = []
     teams = {}
     for playerData in data:
