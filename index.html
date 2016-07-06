@@ -60,8 +60,17 @@
             height = canvas.property('height');
 
     var simulation = d3.forceSimulation()
-            .force("link", d3.forceLink().id(function(d) { return d.id; }))
-            .force("charge", d3.forceManyBody())
+            .force("link", d3.forceLink().id(function(d) { return d.id; }).distance(20))
+            .force('x', d3.forceX())
+            .force('y', d3.forceY())
+            .force('collide', d3.forceCollide().radius(function(d) {
+                if(d.group == 1){
+                    return 17 * Math.log(1.25 * Math.pow(d.winCount, 0.25)) + 5;
+                }else{
+                    return 3.75 * Math.log(Math.pow(d.winCount, 0.75)) + 6;
+                }
+            }))
+            .force("charge", d3.forceManyBody().strength(-25))
             .force("center", d3.forceCenter());
 
     d3.json("dataset.json", function(error, graph) {
