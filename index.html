@@ -54,10 +54,10 @@
 
     var color = d3.scaleOrdinal(d3.schemeCategory10);
 
-    var canvas = document.querySelector("canvas"),
-            context = canvas.getContext("2d"),
-            width = canvas.width,
-            height = canvas.height;
+    var canvas = d3.select("canvas"),
+            context = canvas.node().getContext("2d"),
+            width = canvas.property('width'),
+            height = canvas.property('height');
 
     var simulation = d3.forceSimulation()
             .force("link", d3.forceLink().id(function(d) { return d.id; }))
