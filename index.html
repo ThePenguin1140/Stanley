@@ -84,9 +84,7 @@
             context.strokeStyle = "#aaa";
             context.stroke();
 
-            context.beginPath();
             graph.nodes.forEach(drawNode);
-            context.fill();
             context.strokeStyle = "#fff";
             context.stroke();
 
@@ -101,12 +99,15 @@
     }
 
     function drawNode(d) {
+        context.fillStyle = color(d.group);
+        context.beginPath();
         context.moveTo(d.x + 3, d.y);
         if(d.group == 1){
             context.arc(d.x, d.y, 17 * Math.log(1.25 * Math.pow(d.winCount, 0.25)) + 3, 0, 2 * Math.PI);
         }else{
             context.arc(d.x, d.y, 3.75 * Math.log(Math.pow(d.winCount, 0.75)) + 4, 0, 2 * Math.PI);
         }
+        context.fill();
     }
 
 </script>
