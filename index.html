@@ -67,12 +67,7 @@
     d3.json("dataset.json", function(error, graph) {
         if (error) throw error;
 
-        canvas
-                .call(
-                        d3.zoom()
-                                .scaleExtent([1, 8])
-                                .on("zoom", zoom)
-                )
+        canvas.call(d3.zoom().scaleExtent([1/4, 8]).on("zoom", zoom))
                 .node()
                 .getContext("2d");
 
