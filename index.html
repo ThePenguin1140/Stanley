@@ -3,144 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>Stanley Champs</title>
-    <script src="//d3js.org/d3.v4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.1.0/d3.js"></script>
+    <script src="vis.js"></script>
     <style>
 
-        .node {
-            stroke: #fff;
-            stroke-width: 1.5px;
-        }
-
         .link {
-            stroke: #999;
-            stroke-opacity: .6;
+            fill: none;
+            stroke: #888888;
+            stroke-weight: 1px;
+            stroke-opacity: 0.5;
         }
 
-        .d3-tip {
-            line-height: 1;
-            font-weight: bold;
-            padding: 12px;
-            background: rgba(0, 0, 0, 0.8);
-            color: #fff;
-            border-radius: 2px;
+        .node {
+            fill: #fff;
+            stroke: steelblue;
+            stroke-width: 2.5px;
+            font: 10px sans-serif;
         }
 
-        /* Creates a small triangle extender for the tooltip */
-        .d3-tip:after {
-            box-sizing: border-box;
-            display: inline;
-            font-size: 10px;
-            width: 100%;
-            line-height: 1;
-            color: rgba(0, 0, 0, 0.8);
-            content: "\25BC";
-            position: absolute;
-            text-align: center;
-        }
-
-        /* Style northward tooltips differently */
-        .d3-tip.n:after {
-            margin: -1px 0 0 0;
-            top: 100%;
-            left: 0;
+        .node text {
+            color: #333;
         }
 
     </style>
 
 </head>
 <body>
-<canvas width="2000" height="1000"></canvas>
+<div id="chart"></div>
 <script>
-
-    var color = d3.scaleOrdinal(d3.schemeCategory10);
-
-    var canvas = d3.select("canvas"),
-            context = canvas.node().getContext("2d"),
-            width = canvas.property('width'),
-            height = canvas.property('height');
-
-    var simulation = d3.forceSimulation()
-            .force("link", d3.forceLink().id(function(d) { return d.id; }).distance(20))
-            .force('x', d3.forceX())
-            .force('y', d3.forceY())
-            .force('collide', d3.forceCollide().radius(function(d) {
-                if(d.group == 1){
-                    return 17 * Math.log(1.25 * Math.pow(d.winCount, 0.25)) + 5;
-                }else{
-                    return 3.75 * Math.log(Math.pow(d.winCount, 0.75)) + 6;
-                }
-            }))
-            .force("charge", d3.forceManyBody().strength(-25))
-            .force("center", d3.forceCenter());
-
-    d3.json("dataset.json", function(error, graph) {
-        if (error) throw error;
-
-        canvas.call(d3.zoom().scaleExtent([1/4, 8]).on("zoom", zoom))
-                .node()
-                .getContext("2d");
-
-        function zoom() {
-            context.save();
-            context.clearRect(0, 0, width, height);
-            context.translate(d3.event.transform.x, d3.event.transform.y);
-            context.scale(d3.event.transform.k, d3.event.transform.k);
-            context.beginPath();
-            graph.links.forEach(drawLink);
-            context.strokeStyle = "#aaa";
-            context.stroke();
-
-            graph.nodes.forEach(drawNode);
-            context.strokeStyle = "#fff";
-            context.stroke();
-
-            context.restore();
-        }
-        simulation
-                .nodes(graph.nodes)
-                .on("tick", ticked);
-
-        simulation.force("link")
-                .links(graph.links);
-
-
-        function ticked() {
-            context.clearRect(0, 0, width, height);
-            context.save();
-            context.translate(width / 2, height / 2);
-
-            context.beginPath();
-            graph.links.forEach(drawLink);
-            context.strokeStyle = "#aaa";
-            context.stroke();
-
-            graph.nodes.forEach(drawNode);
-            context.strokeStyle = "#fff";
-            context.stroke();
-
-            context.restore();
-        }
-
-    });
-
-    function drawLink(d) {
-        context.moveTo(d.source.x, d.source.y);
-        context.lineTo(d.target.x, d.target.y);
-    }
-
-    function drawNode(d) {
-        context.fillStyle = color(d.group);
-        context.beginPath();
-        context.moveTo(d.x + 3, d.y);
-        if(d.group == 1){
-            context.arc(d.x, d.y, 17 * Math.log(1.25 * Math.pow(d.winCount, 0.25)) + 3, 0, 2 * Math.PI);
-        }else{
-            context.arc(d.x, d.y, 3.75 * Math.log(Math.pow(d.winCount, 0.75)) + 4, 0, 2 * Math.PI);
-        }
-        context.fill();
-    }
-
+    d3.json("dataset.json", arcDiagram);
 </script>
-
 </body>
 </html>
