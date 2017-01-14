@@ -4,19 +4,49 @@ import json
 PLAYER_GROUP = 2
 TEAM_GROUP = 1
 
+def splitTeamByYears(nodes):
+    nodesCpy = []
+    for index, value in enumerate(nodes):
+        if(value['group'] is TEAM_GROUP):
+            for year, players in value['wins'].iteritems():
+                nodesCpy.append({
+                    'id': len(nodesCpy),
+                    'name': value['name'],
+                    'roster': players,
+                    'year': year,
+                    'group': value['group']
+                })
+    nodesCpy.sort(key=lambda x: int(x['year']))
+    return nodesCpy
+
+def buildArcLinks(nodes):
+    links = []
+    players = {}
+    for index, value in enumerate(nodes):
+        value['id'] = index
+        if(value['group'] is TEAM_GROUP):
+            for player in value['roster']:
+                if(player not in players.keys()):
+                    players[player] = value['id']
+                elif(index > players[player]):
+                    links.append({
+                        'source': players[player],
+                        'target': value['id']
+                    })
+                    players[player] = value['id']
+    return links
+
 
 def buildTeamRosters(nodes):
     winningYears = {}
     for index, value in enumerate(nodes):
-        value['id'] = index
         if(value['group'] is PLAYER_GROUP):
             #add player to each roster
             for year, team in value['wins'].iteritems():
-                if(year not in winningYears.keys()):
-                    winningYears[year] = [index]
+                if(year+team not in winningYears.keys()):
+                    winningYears[year+team] = [value['id']]
                 else:
-                    winningYears[year].extend([index])
-
+                    winningYears[year+team].extend([value['id']])
 
 
     for index, value in enumerate(nodes):
@@ -24,7 +54,7 @@ def buildTeamRosters(nodes):
             #collect the winning years
             teamYears = {}
             for year, roster in value['wins'].iteritems():
-                nodes[index]['wins'][year] = winningYears[year]
+                nodes[index]['wins'][year] = winningYears[year+value['name']]
 
     return nodes
 
@@ -86,6 +116,7 @@ def parse(fn, df):
 
 
 def parser(content, data):
+    playerCount = 0
     for line in content:
         player = {}
         alternator = 'T'
@@ -117,6 +148,8 @@ def parser(content, data):
         player['wins'] = winningTeams
         player['winCount'] = pd[len(pd) - 1].strip().replace('{','').replace('}', '')
         player['group'] = PLAYER_GROUP
+        player['id'] = playerCount
+        playerCount+=1
         data.extend([player])
 
 def parseYears(year):
