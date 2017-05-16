@@ -23,15 +23,16 @@ def buildArcLinks(nodes):
     links = []
     players = {}
     for index, value in enumerate(nodes):
-        value['id'] = index
         if(value['group'] is TEAM_GROUP):
+            value['id'] = index;
             for player in value['roster']:
                 if(player not in players.keys()):
                     players[player] = value['id']
                 elif(index > players[player]):
                     links.append({
                         'source': players[player],
-                        'target': value['id']
+                        'target': value['id'],
+                        'player': player,
                     })
                     players[player] = value['id']
     return links
