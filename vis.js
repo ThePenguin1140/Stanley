@@ -1,15 +1,15 @@
-var width   = 1300,
+var width   = 1100,
     height  = 750,
     margin  = 20,
     pad     = margin / 2,
-    radius  = 6,
+    radius  = 10,
     yfixed  = pad + radius + 20;
 
 var color = d3.scaleOrdinal([0,10]);
 var timeScale = d3.scaleTime()
     .domain([
-        new Date(1801, 0, 1),
-        new Date(1901, 0 ,1)
+        new Date(1901, 0, 1),
+        new Date(1951, 0 ,1)
     ])
     .range([radius * 2, width - margin ]);
 var axis = d3.axisTop(timeScale);
@@ -18,6 +18,8 @@ var axis = d3.axisTop(timeScale);
 var arc = d3.arc()
     .startAngle(1.5708)
     .endAngle( 4.71239 );
+
+var selectedTeam = null;
 // Main
 //-----------------------------------------------------
 
@@ -47,13 +49,22 @@ function arcDiagram(graph) {
     var gLinks = drawLinks(graph.links);
     var gNodes = drawNodes(graph.nodes);
 
+    gNodes.on('click', function( d ) {
+        var old = d3.selectAll('.'+selectedTeam);
+        if( old ) old.style("fill", "white");
+        if( selectedTeam != d.name.replace(/ /g, '')) {
+            selectedTeam = d.name.replace(/ /g,'');
+            d3.selectAll('.'+selectedTeam).style( "fill", "gray").style("fill-opacity", 0.9);
+        } else selectedTeam = null;
+    });
+
     var zoomed = function ( e ) {
         // plot.attr( 'transform', 'translate(' + d3.event.transform.x + ',' + pad + ')' +
         //     ' scale(' + d3.event.transform.k + ')' );
         var transform = d3.event.transform;
         gX.call( axis.scale( transform.rescaleX( timeScale ) ) );
 
-        gNodes.attr("cx", function(d, i) { return transform.applyX( d.x ) });
+        gNodes.attr("cx", function(d, i) { return transform.applyX(d.x) });
 
         gLinks.attr("transform", function(d,i) {
                 var xshift = d.source.x + (d.target.x - d.source.x) / 2;
@@ -74,8 +85,8 @@ function arcDiagram(graph) {
     };
 
     svg.call( d3.zoom()
-        .scaleExtent( [0.5, 3 ])
-        .translateExtent( [ [ -10,0 ], [ 2800, 0] ])
+        .scaleExtent( [0.2, 3 ])
+        .translateExtent( [ [ -3000,0 ], [ 3100, 0] ])
         .on("zoom", zoomed)
     );
 
@@ -103,32 +114,33 @@ function linearLayout(nodes, svg) {
 
 function drawNodes(nodes) {
 
-    var gnodes = d3.select("#plot").selectAll("g.node")
+    var gNodes = d3.select("#plot").selectAll("g.node")
         .data(nodes)
-        .enter().append('g');
-
-    var nodes = gnodes.append("circle")
+        .enter()
+        .append('g')
+        .append("circle")
         .attr("class", "node")
         .attr("id", function(d, i) { return d.year + d.name; })
+        .attr("class", function( d ) { return d.name.replace(/ /g,'') })
         .attr("cx", function(d, i) { return d.x; })
         .attr("cy", function(d, i) { return d.y; })
-        .attr("r", 5)
+        .attr("r", 10)
         .style("stroke", function(d, i) {
             if(d.name == 'Montreal Canadiens')
                 return 'rgb(255, 2, 2)';
             else if(d.name == 'Toronto Maple Leafs')
-                return color(5);
+                return "blue";
             else
                 return 'rgb(167, 174, 180)';
-        });
+        })
+        .style("fill", "white");
 
-    nodes.append("title")
+    gNodes.append("title")
         .attr("dx", function(d) { return 20; })
         .attr("cy", ".35em")
-        .text(function(d) { return d.name + " | " + d.year; })
+        .text(function(d) { return d.name + " | " + d.year; });
 
-    return nodes;
-
+    return gNodes;
 }
 
 function drawLinks(links) {

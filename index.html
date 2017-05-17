@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Stanley Champs</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.9.0/d3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/riot/3.5.0/riot.js"></script>
     <script src="vis.js"></script>
     <style>
 
@@ -25,6 +26,26 @@
             color: #333;
         }
 
+        #infoPanel {
+            float: right;
+            height: 100%;
+            width: 350px;
+            border: black;
+            background: white;
+            position: fixed;
+            top: 0;
+            right: 0;
+            box-shadow: -9px 0px 20px 2px grey;
+        }
+
+        .infoHeader {
+            margin: auto;
+            border-bottom: 3px solid black;
+            padding: 10px;
+            width: 60%;
+            text-align: center;
+        }
+
     </style>
 
 </head>
@@ -33,5 +54,17 @@
 <script>
     d3.json("dataset.json", arcDiagram);
 </script>
+
+<div id="infoPanel">
+    <div style="height: 30px;"></div>
+    <h3 class="infoHeader">
+        Glory to the Side Panel!
+    </h3>
+</div>
+
+<script>
+    this.selectedItem = "Hello World!";
+</script>
+
 </body>
 </html>
