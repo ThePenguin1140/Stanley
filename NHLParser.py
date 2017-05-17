@@ -134,17 +134,19 @@ def parser(content, data):
                 year = year.decode('unicode_escape').encode('ascii', 'replace')
                 if( '???' not in year and '-' not in year):
                     winningTeams[year] = teamName
-                while('???' in year or '-' in year):
+                if '???' in year or '-' in year :
                     years = parseYears(year)
-                    year = ''
-                    prefix = years[0][:2]
-                    for index, val in enumerate(years):
-                        if('???' in val or '-' in val):
-                            year = val
-                            continue
-                        if(len(val)<4):
-                            val = prefix+str(val)
-                        winningTeams[val] = teamName
+                    prefix = ''
+                    y2=[]
+                    for y in years:
+                        if( len(y) == 4 ):
+                            prefix = y[:2]
+                        if( len(y) == 2 and prefix != '' ):
+                            y = str( int(prefix)*100 + int(y) )
+                        y2.append(y)
+                        winningTeams[y] = teamName
+                    print player['name']
+                    print y2
                 alternator = 'T'
         player['wins'] = winningTeams
         player['winCount'] = pd[len(pd) - 1].strip().replace('{','').replace('}', '')
@@ -154,12 +156,28 @@ def parser(content, data):
         data.extend([player])
 
 def parseYears(year):
-    output = []
+    cleanerList = []
     splitter = ''
     if('-' in year):
         splitter = '-'
     elif('???' in year):
         splitter = '???'
     if(splitter is not ''):
-        output = year.split(splitter)
+        cleanerList= year.split(splitter)
+
+    clean = False
+    while( not clean and splitter is not ''):
+        output = []
+        clean = True
+        for o in cleanerList:
+            if( '-' in o ):
+                clean = False
+                y = o.split( '-' )
+            elif( '???' in o ):
+                clean = False
+                y = o.split( '???' )
+            else:
+                y = [o]
+            output.extend(y)
+        cleanerList = output
     return output

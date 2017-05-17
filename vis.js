@@ -1,5 +1,5 @@
-var width   = 1100,
-    height  = 750,
+var width   = screen.width - 300,
+    height  = screen.height,
     margin  = 20,
     pad     = margin / 2,
     radius  = 10,
@@ -86,7 +86,7 @@ function arcDiagram(graph) {
 
     svg.call( d3.zoom()
         .scaleExtent( [0.2, 3 ])
-        .translateExtent( [ [ -3000,0 ], [ 3100, 0] ])
+        .translateExtent( [ [ 0,0 ], [ 3100, 0] ])
         .on("zoom", zoomed)
     );
 
