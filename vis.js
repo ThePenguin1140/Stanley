@@ -20,6 +20,7 @@ var arc = d3.arc()
     .endAngle( 4.71239 );
 
 var selectedTeam = null;
+var selectedPlayer = null;
 // Main
 //-----------------------------------------------------
 
@@ -58,6 +59,15 @@ function arcDiagram(graph) {
         } else selectedTeam = null;
     });
 
+    gLinks.on("click", function (d) {
+        var old = d3.selectAll('.p'+selectedPlayer);
+        if( old ) old.style("stroke", "#888888");
+        if( selectedPlayer != d.player ) {
+            selectedPlayer = d.player;
+            d3.selectAll('.p'+selectedPlayer).style("stroke", "red");
+        } else selectedPlayer = null;
+    })
+
     var zoomed = function ( e ) {
         // plot.attr( 'transform', 'translate(' + d3.event.transform.x + ',' + pad + ')' +
         //     ' scale(' + d3.event.transform.k + ')' );
@@ -86,7 +96,7 @@ function arcDiagram(graph) {
 
     svg.call( d3.zoom()
         .scaleExtent( [0.2, 3 ])
-        .translateExtent( [ [ 0,0 ], [ 3100, 0] ])
+        .translateExtent( [ [ -1000,0 ], [ 2700, 0] ])
         .on("zoom", zoomed)
     );
 
@@ -147,11 +157,13 @@ function drawLinks(links) {
     var radians = d3.scaleLinear()
         .range([Math.PI / 2, 3 * Math.PI / 2]);
 
-    return d3.select("#plot").selectAll(".link")
+    var gLinks = d3.select("#plot").selectAll(".link")
         .data(links)
         .enter()
         .append("path")
-        .attr("class", "link")
+        .attr("class", function (d) {
+            return "link p" + d.player;
+        })
         .attr("transform", function(d,i) {
             var xshift = d.source.x + (d.target.x - d.source.x) / 2;
             var yshift = yfixed;
@@ -165,4 +177,6 @@ function drawLinks(links) {
             // radians.domain([0, points.length - 1]);
             return arc();
         });
+
+    return gLinks;
 }
