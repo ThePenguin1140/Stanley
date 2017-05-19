@@ -1,5 +1,8 @@
 import itertools
 import json
+import mwparserfromhell
+import pywikibot
+from unidecode import unidecode
 
 PLAYER_GROUP = 2
 TEAM_GROUP = 1
@@ -18,6 +21,66 @@ def splitTeamByYears(nodes):
                 })
     nodesCpy.sort(key=lambda x: int(x['year']))
     return nodesCpy
+
+def buildPlayerNodes( nodes ):
+    players = []
+
+    site = pywikibot.Site('en', 'wikipedia')
+
+    for index, value in enumerate(nodes):
+        if( value['group'] is PLAYER_GROUP ):
+            p = {}
+            p['name'] = value['name']
+            p['winCount'] = value['winCount']
+            p['wins'] = value['wins']
+            p['id'] = value['id']
+
+            try:
+                name = value['name']
+                print type(name)
+                name = unidecode(name)
+                try:
+                    page = pywikibot.Page(site, name)
+                except UnicodeDecodeError:
+                    print "Can't get page for " + p['name'] + " as " + name
+                    continue
+
+                if( page.isRedirectPage() ):
+                    page = page.getRedirectTarget()
+
+                wikitext = page.get()
+                wikicode = mwparserfromhell.parse(wikitext)
+
+
+                infobox = wikicode.filter_templates(matches="infobox")
+
+                if( len(infobox) == 0 and wikicode.filter_text(matches="may refer to:") ):
+                    try:
+                        manualRedirect = wikicode.filter_wikilinks(matches="hockey|NHL")[0]
+                        page = pywikibot.Page(site, manualRedirect.title)
+                        if( page.isRedirectPage() ):
+                            page = page.getRedirectTarget()
+
+                        wikicode = mwparserfromhell.parse( page.get() )
+                        infobox = wikicode.filter_templates(matches="infobox")
+                    except IndexError:
+                        print "Manual Redirect Failed for " + p['name']
+
+                try:
+                    infobox = infobox[0]
+                    for value in infobox.params:
+                        p[value.name] = value.value
+                    p['found'] = True
+                except IndexError:
+                    #print "Can't extract infobox for " + p['name']
+                    p['found'] = False
+
+            except pywikibot.exceptions.NoPage as e:
+                p['found'] = False
+
+    print players
+    nodes['players'] = players
+    return nodes
 
 def buildArcLinks(nodes):
     links = []
@@ -145,8 +208,6 @@ def parser(content, data):
                             y = str( int(prefix)*100 + int(y) )
                         y2.append(y)
                         winningTeams[y] = teamName
-                    print player['name']
-                    print y2
                 alternator = 'T'
         player['wins'] = winningTeams
         player['winCount'] = pd[len(pd) - 1].strip().replace('{','').replace('}', '')

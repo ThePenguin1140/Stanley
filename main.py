@@ -5,6 +5,7 @@ data = NHLParser.parse_to_json("NHL_Winners.csv", "NHL_Winners.json")
 nodes = NHLParser.buildTeamNodes(data)
 #
 nodes = NHLParser.buildTeamRosters(nodes)
+NHLParser.buildPlayerNodes(nodes)
 nodes = NHLParser.splitTeamByYears(nodes)
 # print( nodes )
 # links = NHLParser.buildLinks(nodes)
