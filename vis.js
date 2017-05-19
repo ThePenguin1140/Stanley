@@ -96,7 +96,7 @@ function arcDiagram(graph) {
 
     svg.call( d3.zoom()
         .scaleExtent( [0.2, 3 ])
-        .translateExtent( [ [ -1000,0 ], [ 2700, 0] ])
+        .translateExtent( [ [ -500,0 ], [ 4000, 0] ])
         .on("zoom", zoomed)
     );
 
