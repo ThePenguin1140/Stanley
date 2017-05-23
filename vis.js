@@ -21,13 +21,16 @@ var arc = d3.arc()
 
 var selectedTeam = null;
 var selectedPlayer = null;
+var hoverSelectionTeam = null;
+var incomingArcs, outgoingArcs;
+
+var t = d3.transition()
+    .duration(500)
+    .ease(d3.easeLinear);
 // Main
 //-----------------------------------------------------
 
 function arcDiagram(graph) {
-    var radius = d3.scaleSqrt()
-        .domain([0, 20])
-        .range([0, 15]);
 
     var svg = d3.select("#chart").append("svg")
         .attr("id", "arc")
@@ -40,10 +43,27 @@ function arcDiagram(graph) {
         .attr("id", "plot")
         .attr("transform", "translate(" + pad + ", " + pad + ")");
 
+    var defs = svg.append('svg:defs');
+
+
     // fix graph links to map to objects
     graph.links.forEach(function(d,i) {
         d.source = graph.nodes[d.source];
         d.target = graph.nodes[d.target];
+    });
+
+    graph.nodes.forEach( function (d, i) {
+        defs.append("svg:pattern")
+            .attr('id', d.name.replace(/ /g, '_'))
+            .attr('width', 20)
+            .attr('height', 20)
+            .attr('patternUnits', 'userSpaceOnUse')
+            .append('svg:image')
+            .attr('xlink:href', graph.teams[ d.name ]['logoURL'])
+            .attr('width', 20)
+            .attr('height', 20)
+            .attr('x', 0)
+            .attr('y', 0);
     });
 
     var gX = linearLayout(graph.nodes, svg);
@@ -57,6 +77,38 @@ function arcDiagram(graph) {
             selectedTeam = d.name.replace(/ /g,'');
             d3.selectAll('.'+selectedTeam).style( "fill", "gray").style("fill-opacity", 0.9);
         } else selectedTeam = null;
+
+        if( incomingArcs && outgoingArcs ) {
+            incomingArcs.style("stroke", "#888888");
+            outgoingArcs.style("stroke", "#888888");
+        }
+
+        incomingArcs = d3.selectAll('*[data-target=\"' + d.id + '\"]');
+        outgoingArcs = d3.selectAll('*[data-source=\"' + d.id + '\"]');
+
+        incomingArcs.style("stroke", "red");
+        outgoingArcs.style("stroke", "red");
+    });
+
+    gNodes.on('mouseover', function (d) {
+        var selection = d3.selectAll('.' + d.name.replace(/ /g, ''));
+        if( hoverSelectionTeam ) {
+            hoverSelectionTeam.interrupt();
+            hoverSelectionTeam.transition(t).attr('r', radius);
+        }
+        hoverSelectionTeam = selection;
+        if( hoverSelectionTeam ) {
+            hoverSelectionTeam.interrupt();
+            hoverSelectionTeam.transition(t).attr('r', radius * 2);
+        }
+    });
+
+
+    gNodes.on('mouseout', function (d) {
+        if( hoverSelectionTeam ) {
+            hoverSelectionTeam.interrupt();
+            hoverSelectionTeam.transition(t).attr('r', radius);
+        }
     });
 
     gLinks.on("click", function (d) {
@@ -66,7 +118,7 @@ function arcDiagram(graph) {
             selectedPlayer = d.player;
             d3.selectAll('.p'+selectedPlayer).style("stroke", "red");
         } else selectedPlayer = null;
-    })
+    });
 
     var zoomed = function ( e ) {
         // plot.attr( 'transform', 'translate(' + d3.event.transform.x + ',' + pad + ')' +
@@ -79,7 +131,7 @@ function arcDiagram(graph) {
         gLinks.attr("transform", function(d,i) {
                 var xshift = d.source.x + (d.target.x - d.source.x) / 2;
                 xshift = transform.applyX( xshift );
-                var yshift = yfixed;
+                var yshift = yfixed + radius;
                 return "translate(" + xshift + ", " + yshift + ")";
             })
         .attr("d", function(d,i) {
@@ -122,8 +174,7 @@ function linearLayout(nodes, svg) {
     return g;
 }
 
-function drawNodes(nodes) {
-
+function drawNodes( nodes ) {
     var gNodes = d3.select("#plot").selectAll("g.node")
         .data(nodes)
         .enter()
@@ -143,7 +194,9 @@ function drawNodes(nodes) {
             else
                 return 'rgb(167, 174, 180)';
         })
-        .style("fill", "white");
+        .style("fill", function (d, i) {
+            return "url(#" + d.name.replace(/ /g, '_') +")";
+        });
 
     gNodes.append("title")
         .attr("dx", function(d) { return 20; })
@@ -164,9 +217,15 @@ function drawLinks(links) {
         .attr("class", function (d) {
             return "link p" + d.player;
         })
+        .attr("data-source", function (d) {
+            return d.source.id;
+        })
+        .attr("data-target", function (d) {
+            return d.target.id;
+        })
         .attr("transform", function(d,i) {
             var xshift = d.source.x + (d.target.x - d.source.x) / 2;
-            var yshift = yfixed;
+            var yshift = yfixed + radius;
             return "translate(" + xshift + ", " + yshift + ")";
         })
         .attr("d", function(d,i) {
