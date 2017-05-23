@@ -2,6 +2,7 @@ import itertools
 import json
 import mwparserfromhell
 import pywikibot
+import requests
 from unidecode import unidecode
 
 PLAYER_GROUP = 2
@@ -21,6 +22,16 @@ def splitTeamByYears(nodes):
                 })
     nodesCpy.sort(key=lambda x: int(x['year']))
     return nodesCpy
+
+def getTeamImage( team ):
+    url = "https://api.cognitive.microsoft.com/bing/v5.0/images/search?q=" + \
+          team.replace(' ', '+') + "+hockey+team+logo&mkt=en-us"
+
+    res = requests.get( url, headers = {
+        'Ocp-Apim-Subscription-Key': '44d9098965f44ac8bc101c979e16d235'
+    })
+
+    return res.json()['value'][0]['thumbnailUrl']
 
 def buildPlayerNodes( nodes ):
     players = []
@@ -149,7 +160,8 @@ def buildTeamNodes(data):
                     },
                     'winCount': 1,
                     'name': team,
-                    'group': TEAM_GROUP
+                    'group': TEAM_GROUP,
+                    'logoURL': getTeamImage( team ),
                 }
             else:
                 if( year not in teams[team]['wins'] ):
