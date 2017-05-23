@@ -2,14 +2,14 @@ var width   = screen.width - 300,
     height  = screen.height,
     margin  = 20,
     pad     = margin / 2,
-    radius  = 10,
+    radius  = 30,
     yfixed  = pad + radius + 20;
 
 var color = d3.scaleOrdinal([0,10]);
 var timeScale = d3.scaleTime()
     .domain([
-        new Date(1901, 0, 1),
-        new Date(1951, 0 ,1)
+        new Date(2000, 0, 1),
+        new Date(2020, 0 ,1)
     ])
     .range([radius * 2, width - margin ]);
 var axis = d3.axisTop(timeScale);
@@ -37,34 +37,31 @@ function arcDiagram(graph) {
         .attr("width", width)
         .attr("height", height);
 
-    // create plot within svg
-    var plot = svg.append("g")
-        .style('pointer-events', 'all')
-        .attr("id", "plot")
-        .attr("transform", "translate(" + pad + ", " + pad + ")");
-
-    var defs = svg.append('svg:defs');
-
-
     // fix graph links to map to objects
     graph.links.forEach(function(d,i) {
         d.source = graph.nodes[d.source];
         d.target = graph.nodes[d.target];
     });
 
-    graph.nodes.forEach( function (d, i) {
-        defs.append("svg:pattern")
-            .attr('id', d.name.replace(/ /g, '_'))
-            .attr('width', 20)
-            .attr('height', 20)
-            .attr('patternUnits', 'userSpaceOnUse')
-            .append('svg:image')
-            .attr('xlink:href', graph.teams[ d.name ]['logoURL'])
-            .attr('width', 20)
-            .attr('height', 20)
-            .attr('x', 0)
-            .attr('y', 0);
-    });
+    svg.append('svg:defs').selectAll("pattern")
+        .data( d3.entries( graph.teams ) )
+        .enter()
+        .append("svg:pattern")
+        .attr('id', function( d ) { return d.value.name.replace(/ /g, '_'); } )
+        .attr('width', "100%" )
+        .attr('height', "100%" )
+        .attr('patternContentUnits', 'objectBoundingBox')
+        .append('svg:image')
+        .attr('xlink:href', function( d ) { return d.value.logoURL; } )
+        .attr('preserveAspectRatio', 'xMidYMid slice')
+        .attr('width', 1 )
+        .attr('height',1 );
+
+    // create plot within svg
+    var plot = svg.append("g")
+        .style('pointer-events', 'all')
+        .attr("id", "plot")
+        .attr("transform", "translate(" + pad + ", " + pad + ")");
 
     var gX = linearLayout(graph.nodes, svg);
     var gLinks = drawLinks(graph.links);
@@ -147,8 +144,8 @@ function arcDiagram(graph) {
     };
 
     svg.call( d3.zoom()
-        .scaleExtent( [0.2, 3 ])
-        .translateExtent( [ [ -500,0 ], [ 4000, 0] ])
+        .scaleExtent( [0.4, 3 ])
+        .translateExtent( [ [ -6000,0 ], [ 1500, 0] ])
         .on("zoom", zoomed)
     );
 
@@ -185,7 +182,7 @@ function drawNodes( nodes ) {
         .attr("class", function( d ) { return d.name.replace(/ /g,'') })
         .attr("cx", function(d, i) { return d.x; })
         .attr("cy", function(d, i) { return d.y; })
-        .attr("r", 10)
+        .attr("r", radius)
         .style("stroke", function(d, i) {
             if(d.name == 'Montreal Canadiens')
                 return 'rgb(255, 2, 2)';
@@ -194,7 +191,7 @@ function drawNodes( nodes ) {
             else
                 return 'rgb(167, 174, 180)';
         })
-        .style("fill", function (d, i) {
+        .attr("fill", function (d, i) {
             return "url(#" + d.name.replace(/ /g, '_') +")";
         });
 
