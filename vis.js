@@ -69,10 +69,10 @@ function arcDiagram(graph) {
 
     gNodes.on('click', function( d ) {
         var old = d3.selectAll('.'+selectedTeam);
-        if( old ) old.style("fill", "white");
+        if( old ) old.style("stroke", "rgb(167, 174, 180)").style("stroke-width", 2);
         if( selectedTeam != d.name.replace(/ /g, '')) {
             selectedTeam = d.name.replace(/ /g,'');
-            d3.selectAll('.'+selectedTeam).style( "fill", "gray").style("fill-opacity", 0.9);
+            d3.selectAll('.'+selectedTeam).style( "stroke", "red").style("stroke-width", 6);
         } else selectedTeam = null;
 
         if( incomingArcs && outgoingArcs ) {
@@ -184,12 +184,7 @@ function drawNodes( nodes ) {
         .attr("cy", function(d, i) { return d.y; })
         .attr("r", radius)
         .style("stroke", function(d, i) {
-            if(d.name == 'Montreal Canadiens')
-                return 'rgb(255, 2, 2)';
-            else if(d.name == 'Toronto Maple Leafs')
-                return "blue";
-            else
-                return 'rgb(167, 174, 180)';
+            return 'rgb(167, 174, 180)';
         })
         .attr("fill", function (d, i) {
             return "url(#" + d.name.replace(/ /g, '_') +")";
