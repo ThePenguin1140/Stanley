@@ -1,5 +1,5 @@
-var width   = screen.width - 300,
-    height  = screen.height - 100,
+var width   = screen.width,
+    height  = screen.height,
     margin  = 20,
     pad     = margin / 2,
     radius  = 30,
@@ -124,15 +124,15 @@ function arcDiagram(graph) {
         var transform = d3.event.transform;
         gX.call( axis.scale( transform.rescaleX( timeScale ) ) );
 
-        gNodes.attr("cx", function(d, i) { return transform.applyX(d.x) });
+        gNodes.attr("cx", function(d) { return transform.applyX(d.x) });
 
-        gLinks.attr("transform", function(d,i) {
+        gLinks.attr("transform", function(d) {
                 var xshift = d.source.x + (d.target.x - d.source.x) / 2;
                 xshift = transform.applyX( xshift );
                 var yshift = yfixed + radius;
                 return "translate(" + xshift + ", " + yshift + ")";
             })
-        .attr("d", function(d,i) {
+        .attr("d", function(d) {
             var xdist = Math.abs(
                 transform.applyX( d.source.x )-
                 transform.applyX( d.target.x ) );
@@ -212,17 +212,15 @@ function drawLinks(links) {
         .attr("data-target", function (d) {
             return d.target.id;
         })
-        .attr("transform", function(d,i) {
+        .attr("transform", function(d) {
             var xshift = d.source.x + (d.target.x - d.source.x) / 2;
             var yshift = yfixed + radius;
             return "translate(" + xshift + ", " + yshift + ")";
         })
-        .attr("d", function(d,i) {
+        .attr("d", function(d) {
             var xdist = Math.abs(d.source.x - d.target.x);
             arc.outerRadius( xdist / 2 );
             arc.innerRadius( xdist / 2 );
-            // var points = d3.range(0, Math.ceil(xdist / 3));
-            // radians.domain([0, points.length - 1]);
             return arc();
         });
 
