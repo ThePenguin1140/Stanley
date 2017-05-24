@@ -86,6 +86,18 @@ function arcDiagram(graph) {
 
         incomingArcs.style("stroke", "red");
         outgoingArcs.style("stroke", "red");
+
+        d3.select("#teamLogo").attr("src", graph.teams[d.name].logoURL);
+        d3.select("#teamName").text( d.name );
+        d3.select("#winYear").text( d.year );
+        d3.select("#teamRoster")
+            .selectAll(".item")
+            .data( d.roster )
+            .remove()
+            .enter()
+            .append("div")
+            .attr("class", "item")
+            .text( function( d ) { return graph.players[d].name })
     });
 
     gNodes.on('mouseover', function (d) {
@@ -146,7 +158,7 @@ function arcDiagram(graph) {
 
     svg.call( d3.zoom()
         .scaleExtent( [0.4, 3 ])
-        .translateExtent( [ [ -6000,0 ], [ 1500, 0] ])
+        // .translateExtent( [ [ -6000,0 ], [ 1500, 0] ])
         .on("zoom", zoomed)
     );
 

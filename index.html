@@ -4,9 +4,18 @@
     <meta charset="UTF-8">
     <title>Stanley Champs</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.9.0/d3.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/riot/3.5.0/riot.js"></script>
     <script src="vis.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css">
+
     <style>
+
+
+        #chart {
+            overflow: hidden;
+            position: fixed;
+            transform: translate( -150px, 10px );
+        }
 
         .link {
             fill: none;
@@ -36,6 +45,7 @@
             top: 0;
             right: 0;
             box-shadow: -9px 0px 20px 2px grey;
+            overflow: hidden;
         }
 
         .infoHeader {
@@ -46,20 +56,56 @@
             text-align: center;
         }
 
+        #teamLogo {
+            box-shadow: -3px 2px 14px 0px grey;
+        }
+
+        .roundedImage {
+            height: 150px;
+            width: 150px;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            border-radius: 50%;
+        }
+
     </style>
 
 </head>
 <body>
-<div id="chart" style="overflow: hidden; position: fixed;"></div>
+<div id="chart"></div>
 <script>
     d3.json("dataset.json", arcDiagram);
 </script>
 
 <div id="infoPanel">
-    <div style="height: 30px;"></div>
-    <h3 class="infoHeader">
-        Glory to the Side Panel!
-    </h3>
+    <div class="ui container">
+
+        <div style="height: 30px;"></div>
+        <div class="ui two column centered relaxed grid">
+            <div class="two column centered row">
+                <div class="column">
+                    <img id="teamLogo" src="team-5-light.svg" alt="" class="ui roundedImage image">
+                </div>
+            </div>
+            <div class="two column centered row">
+                <div class="column">
+                    <h1 id="teamName" class="ui center aligned header">
+                        Pittsburgh Penguins
+                    </h1>
+                </div>
+            </div>
+            <div id="winYear">2009</div>
+            <div class="ui row divider"></div>
+            <div class="row">
+                    <div id="teamRoster" class="ui middle aligned list" style="columns: 2">
+                        <div class="item">Player one</div>
+                        <div class="item">Player two</div>
+                    </div>
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 </html>
