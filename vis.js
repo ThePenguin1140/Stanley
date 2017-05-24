@@ -1,5 +1,5 @@
 var width   = screen.width - 300,
-    height  = screen.height,
+    height  = screen.height - 100,
     margin  = 20,
     pad     = margin / 2,
     radius  = 30,
@@ -12,7 +12,8 @@ var timeScale = d3.scaleTime()
         new Date(2020, 0 ,1)
     ])
     .range([radius * 2, width - margin ]);
-var axis = d3.axisTop(timeScale);
+var axis = d3.axisTop(timeScale)
+    .tickSize([10]);
 
 
 var arc = d3.arc()
@@ -48,8 +49,8 @@ function arcDiagram(graph) {
         .enter()
         .append("svg:pattern")
         .attr('id', function( d ) { return d.value.name.replace(/ /g, '_'); } )
-        .attr('width', "100%" )
-        .attr('height', "100%" )
+        .attr('width', "95%" )
+        .attr('height', "95%" )
         .attr('patternContentUnits', 'objectBoundingBox')
         .append('svg:image')
         .attr('xlink:href', function( d ) { return d.value.logoURL; } )
@@ -153,14 +154,10 @@ function arcDiagram(graph) {
 
 // layout nodes linearly
 function linearLayout(nodes, svg) {
-
-    // var xscale = d3.scale.linear()
-    //     .domain([0, nodes.length - 1])
-    //     .range([radius * 2, width - margin - radius ]);
-
     var g = svg.append("g")
         .attr('class', 'axis')
         .attr('transform', 'translate(' + pad + ', ' + ( pad + 20 )  + ')')
+        .style('font-size','20px')
         .call(axis);
 
     nodes.forEach(function(d, i) {
