@@ -1,3 +1,4 @@
+
 var width   = screen.width,
     height  = screen.height,
     margin  = 20,
@@ -28,6 +29,7 @@ var incomingArcs, outgoingArcs;
 var t = d3.transition()
     .duration(500)
     .ease(d3.easeLinear);
+
 // Main
 //-----------------------------------------------------
 
@@ -58,20 +60,24 @@ function arcDiagram(graph) {
         .attr('width', 1 )
         .attr('height',1 );
 
+    var gX = linearLayout(graph.nodes, svg);
+
     // create plot within svg
     var plot = svg.append("g")
         .style('pointer-events', 'all')
         .attr("id", "plot")
         .attr("transform", "translate(" + pad + ", " + pad + ")");
 
-    var gX = linearLayout(graph.nodes, svg);
     var gLinks = drawLinks(graph.links);
     var gNodes = drawNodes(graph.nodes);
 
     gNodes.on('click', function( d ) {
+
+
+
         var old = d3.selectAll('.'+selectedTeam);
         if( old ) old.style("stroke", "rgb(167, 174, 180)").style("stroke-width", 2);
-        if( selectedTeam != d.name.replace(/ /g, '')) {
+        if( true ) {
             selectedTeam = d.name.replace(/ /g,'');
             d3.selectAll('.'+selectedTeam).style( "stroke", "red").style("stroke-width", 6);
         } else selectedTeam = null;
@@ -90,17 +96,55 @@ function arcDiagram(graph) {
         d3.select("#teamLogo").attr("src", graph.teams[d.name].logoURL);
         d3.select("#teamName").text( d.name );
         d3.select("#winYear").text( d.year );
-        d3.select("#teamRoster")
+
+        var roster = d3.select("#teamRoster")
             .selectAll(".item")
-            .data( d.roster )
-            .remove()
-            .enter()
+            .data( d.roster, function( n ) {
+                return n;
+            } );
+
+        var rosterItem = roster.enter()
             .append("div")
             .attr("class", "item")
-            .text( function( d ) { return graph.players[d].name })
+            .on("click", function (item) {
+                var arcs = d3.selectAll('*[data-player=\"' + item + '\"');
+                arcs.style("stroke", "red");
+            })
+            .on('mouseover', function (item) {
+                var arcs = d3.selectAll('*[data-player=\"' + item + '\"');
+                arcs.interrupt();
+                arcs.transition(t).style("stroke-width", 5);
+            })
+            .on('mouseout', function (item) {
+                var arcs = d3.selectAll('*[data-player=\"' + item + '\"');
+                arcs.interrupt();
+                arcs.transition(t).style("stroke-width", 1);
+            })
+            ;
+
+        rosterItem
+            .selectAll(".ui.avatar.image")
+            .data( function( n ) { return graph.players[n].wins })
+            .enter()
+            .append("img")
+            .attr("class", "ui avatar image")
+            .attr("src", "https://maxcdn.icons8.com/Share/icon/Cinema//avatar1600.png")
+            ;
+
+        rosterItem
+            .append("div")
+            .attr("class", "content")
+            .append("a")
+            .attr("class", "header")
+            .text( function( n ) { return graph.players[n].name })
+            ;
+
+
+        roster.exit().remove();
     });
 
     gNodes.on('mouseover', function (d) {
+
         var selection = d3.selectAll('.' + d.name.replace(/ /g, ''));
         if( hoverSelectionTeam ) {
             hoverSelectionTeam.interrupt();
@@ -111,6 +155,8 @@ function arcDiagram(graph) {
             hoverSelectionTeam.interrupt();
             hoverSelectionTeam.transition(t).attr('r', radius * 2);
         }
+
+        this.parentNode.appendChild(this);
     });
 
 
@@ -223,6 +269,9 @@ function drawLinks(links) {
         })
         .attr("data-target", function (d) {
             return d.target.id;
+        })
+        .attr("data-player", function (d) {
+            return d.player;
         })
         .attr("transform", function(d) {
             var xshift = d.source.x + (d.target.x - d.source.x) / 2;
