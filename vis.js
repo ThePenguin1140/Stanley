@@ -94,8 +94,22 @@ function arcDiagram(graph) {
         outgoingArcs.style("stroke", "red");
 
         d3.select("#teamLogo").attr("src", graph.teams[d.name].logoURL);
+
         d3.select("#teamName").text( d.name );
-        d3.select("#winYear").text( d.year );
+
+        d3.select("#winYear").selectAll('span')
+            .data( Object.keys( graph.teams[d.name].wins ) )
+            .enter()
+            .append('span')
+            .text( function ( year ) {
+                return year;
+            } )
+            .style("padding", "5px")
+            .style("font-size", function( year ) {
+                if( year == d.year ) return "16px";
+                else return "11px";
+            })
+        ;
 
         var roster = d3.select("#teamRoster")
             .selectAll(".item")
@@ -124,11 +138,19 @@ function arcDiagram(graph) {
 
         rosterItem
             .selectAll(".ui.avatar.image")
-            .data( function( n ) { return graph.players[n].wins })
+            .data( function( n ) {
+                wins = [];
+                for( year in graph.players[n].wins ) {
+                    wins.push( { "year": year, "name": graph.players[n].wins[year] } );
+                }
+                return wins;
+            })
             .enter()
             .append("img")
             .attr("class", "ui avatar image")
-            .attr("src", "https://maxcdn.icons8.com/Share/icon/Cinema//avatar1600.png")
+            .attr("src", function (team) {
+                return graph.teams[team.name].logoURL;
+            })
             ;
 
         rosterItem

@@ -22,15 +22,23 @@ with open('dataset.json') as data_file:
     data = json.load(data_file)
 
 teams = data['teams']
+nodes = data['nodes']
+links = data['links']
+players = data['players']
 
-teamDic = {}
+for key, value in teams.items():
+    for year, roster in value['wins'].items():
+        matches = [ x for x in nodes if x['group'] == 1 and x['year'] == year and x['name'] == key ]
+        value['wins'][year] = matches[0]['id']
 
-for team in teams:
-    teamDic[team['name']] = team
+# teamDic = {}
 
-data['teams'] = teamDic
+# for team in teams:
+#     teamDic[team['name']] = team
+#
+data['teams'] = teams
 
-output = data;
+output = data
 
 with open('dataset.json', 'w+') as dataFile:
     dataFile.write(json.dumps(output, indent=4))
