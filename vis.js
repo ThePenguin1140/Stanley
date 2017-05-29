@@ -24,11 +24,16 @@ var arc = d3.arc()
 var selectedTeam = null;
 var selectedPlayer = null;
 var hoverSelectionTeam = null;
-var incomingArcs, outgoingArcs;
+var arcs;
 
 var t = d3.transition()
     .duration(500)
     .ease(d3.easeLinear);
+
+var fast_t = d3.transition()
+    .duration(250)
+    .ease(d3.easeLinear)
+    ;
 
 // Main
 //-----------------------------------------------------
@@ -76,22 +81,41 @@ function arcDiagram(graph) {
 
 
         var old = d3.selectAll('.'+selectedTeam);
-        if( old ) old.style("stroke", "rgb(167, 174, 180)").style("stroke-width", 2);
+        if( old ) {
+            old.interrupt();
+            old.transition(fast_t)
+                .style("stroke", "rgb(167, 174, 180)")
+                .style("stroke-width", 2)
+            ;
+        }
         if( true ) {
             selectedTeam = d.name.replace(/ /g,'');
-            d3.selectAll('.'+selectedTeam).style( "stroke", "red").style("stroke-width", 6);
+            d3.selectAll('.'+selectedTeam).interrupt();
+            d3.selectAll('.' + selectedTeam).transition(fast_t)
+                .style( "stroke", "red")
+                .style("stroke-width", 6)
+            ;
         } else selectedTeam = null;
 
-        if( incomingArcs && outgoingArcs ) {
-            incomingArcs.style("stroke", "#888888");
-            outgoingArcs.style("stroke", "#888888");
+        if( arcs ) {
+            arcs.transition(fast_t)
+                .style("stroke", "#888888")
+                .style("stroke-width", 1)
+                .style("stroke-opacity", 0.5)
+            ;
         }
 
-        incomingArcs = d3.selectAll('*[data-target=\"' + d.id + '\"]');
-        outgoingArcs = d3.selectAll('*[data-source=\"' + d.id + '\"]');
+        arcs = d3.selectAll('*[data-target=\"' + d.id + '\"]').classed("cur", true);
+        var outgoingArcs = d3.selectAll('*[data-source=\"' + d.id + '\"]').classed("cur", true);
 
-        incomingArcs.style("stroke", "red");
-        outgoingArcs.style("stroke", "red");
+        arcs = d3.selectAll('.cur');
+        arcs.classed("cur", false);
+
+        arcs.transition(fast_t)
+            .style("stroke", "black")
+            .style("stroke-width", 3)
+            .style("stroke-opacity", 1)
+        ;
 
         d3.select("#teamLogo").attr("src", graph.teams[d.name].logoURL);
 
@@ -121,18 +145,20 @@ function arcDiagram(graph) {
             .append("div")
             .attr("class", "item")
             .on("click", function (item) {
-                var arcs = d3.selectAll('*[data-player=\"' + item + '\"');
-                arcs.style("stroke", "red");
+                var playerArcs = d3.selectAll('*[data-player=\"' + item + '\"');
+                playerArcs.transition(fast_t).style("stroke", "red");
             })
             .on('mouseover', function (item) {
-                var arcs = d3.selectAll('*[data-player=\"' + item + '\"');
-                arcs.interrupt();
-                arcs.transition(t).style("stroke-width", 5);
+                var playerArcs = d3.selectAll('*[data-player=\"' + item + '\"');
+                playerArcs.interrupt();
+                playerArcs.transition(fast_t).style("stroke-width", 8).style("stroke", "red");
             })
             .on('mouseout', function (item) {
-                var arcs = d3.selectAll('*[data-player=\"' + item + '\"');
+                var playerArcs = d3.selectAll('*[data-player=\"' + item + '\"');
+                playerArcs.interrupt();
+                playerArcs.transition(fast_t).style("stroke-width", 3).style("stroke", "#888888");
                 arcs.interrupt();
-                arcs.transition(t).style("stroke-width", 1);
+                arcs.transition(fast_t).style("stroke", "black").style("stroke-width", 3);
             })
             ;
 
