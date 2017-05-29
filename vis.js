@@ -121,8 +121,12 @@ function arcDiagram(graph) {
 
         d3.select("#teamName").text( d.name );
 
+        d3.select("#winYear").selectAll('span').remove();
+
         d3.select("#winYear").selectAll('span')
-            .data( Object.keys( graph.teams[d.name].wins ) )
+            .data( Object.keys( graph.teams[d.name].wins, function( n ) {
+                return n;
+            } ) )
             .enter()
             .append('span')
             .text( function ( year ) {
@@ -133,7 +137,7 @@ function arcDiagram(graph) {
                 if( year == d.year ) return "16px";
                 else return "11px";
             })
-        ;
+            ;
 
         var roster = d3.select("#teamRoster")
             .selectAll(".item")
