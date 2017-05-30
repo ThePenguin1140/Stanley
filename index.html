@@ -79,12 +79,13 @@
         <div style="height: 30px;"></div>
         <div class="two column centered row">
             <div class="column">
-                <img id="teamLogo" src="team-5-light.svg" alt="" class="ui roundedImage image">
+                <img id="teamLogo" src="https://upload.wikimedia.org/wikipedia/en/4/4b/2008StanleyCupFinals.png" alt="" class="ui roundedImage image">
             </div>
         </div>
         <div class="two column centered row">
             <div class="column">
                 <h1 id="teamName" class="ui center aligned header">
+                    The Stanley Diagram
                 </h1>
             </div>
         </div>
@@ -94,14 +95,31 @@
     <div class="ui row divider" style="margin: 0px"></div>
     <div id="rosterContainer" class="ui container">
         <div id="teamRoster" class="ui middle aligned selection animated list" >
+            <div class="column" style="padding: 10px;">
+                <span>
+                Stanley is a visualization of past Stanley Cup champions and the player relations between these winning teams.
+                Using the mouse, you can pan and zoom the axis and select teams.
+                Selecting a team will highlight the node in red and the arcs of the players in black that team shares with other Stanley Cup winning teams.
+                </span>
+                <br>
+                <img src="SelectedNode.png" height="138" />
+                <br>
+                This side panel will show information on the selected team such as the logo, name, win years and the winning roster for the selected year.
+                <br>
+                <img src="SidePanel.png" height="319"/>
+                <br>
+                You can hover over players in the roster to see their arcs highlighted in the diagram.
+                You can re-open this help panel any time by clicking on the 'Legend' button in the bottom left corner.
+                <br>
+            </div>
         </div>
     </div>
-
 </div>
 
 <script>
     d3.json("dataset.json", arcDiagram);
-
+    document.getElementById("teamRoster").setAttribute("style", "height: " +
+    String( screen.height - 450 ) + "px; overflow-y: scroll;" );
 </script>
 </body>
 </html>
