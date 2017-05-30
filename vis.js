@@ -147,7 +147,7 @@ function arcDiagram(graph) {
             .style("padding-bottom", "10px")
         ;
 
-        console.log( screen.height - d3.select('#infoPanel>div').node().getBoundingClientRect().height );
+        d3.select("#teamRoster").selectAll('div').remove();
 
         var roster = d3.select("#teamRoster")
             .selectAll(".item")
