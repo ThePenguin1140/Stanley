@@ -121,23 +121,33 @@ function arcDiagram(graph) {
 
         d3.select("#teamName").text( d.name );
 
-        d3.select("#winYear").selectAll('span').remove();
+        d3.select("#winYear").selectAll('div.ui.label').remove();
 
-        d3.select("#winYear").selectAll('span')
+        d3.select("#winYear").selectAll('div')
             .data( Object.keys( graph.teams[d.name].wins, function( n ) {
                 return n;
             } ) )
             .enter()
-            .append('span')
+            .append('div')
             .text( function ( year ) {
                 return year;
             } )
-            .style("padding", "5px")
-            .style("font-size", function( year ) {
-                if( year == d.year ) return "16px";
-                else return "11px";
+            .attr("class", function ( year ) {
+                var c = "ui ";
+                c += d.year == year ? "green " : "";
+                return c + "label";
             })
+            .style("margin", "5px")
             ;
+
+        d3.select("#teamRoster")
+            .style('height',
+            String( screen.height - d3.select('#infoPanel>div').node().getBoundingClientRect().height - 75 ) + "px" )
+            .style("overflow-y", "scroll")
+            .style("padding-bottom", "10px")
+        ;
+
+        console.log( screen.height - d3.select('#infoPanel>div').node().getBoundingClientRect().height );
 
         var roster = d3.select("#teamRoster")
             .selectAll(".item")

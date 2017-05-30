@@ -88,10 +88,10 @@
                 </h1>
             </div>
         </div>
-        <div id="winYear" class="row">
+        <div id="winYear" class="ui row">
         </div>
     </div>
-    <div class="ui row divider"></div>
+    <div class="ui row divider" style="margin: 0px"></div>
     <div id="rosterContainer" class="ui container">
         <div id="teamRoster" class="ui middle aligned selection animated list" >
         </div>
@@ -101,10 +101,6 @@
 
 <script>
     d3.json("dataset.json", arcDiagram);
-    console.log( screen.height );
-
-    document.getElementById("rosterContainer").setAttribute("style",
-        "height: " + String( screen.height - 460 ) + "px; overflow-y: scroll;");
 
 </script>
 </body>
