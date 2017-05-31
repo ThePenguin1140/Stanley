@@ -1,6 +1,6 @@
 
-var width   = screen.width,
-    height  = screen.height,
+var width   = window.width,
+    height  = window.height,
     margin  = 20,
     pad     = margin / 2,
     radius  = 30,
@@ -142,7 +142,7 @@ function arcDiagram(graph) {
 
         d3.select("#teamRoster")
             .style('height',
-            String( screen.height - d3.select('#infoPanel>div').node().getBoundingClientRect().height - 75 ) + "px" )
+            String( window.height - d3.select('#infoPanel>div').node().getBoundingClientRect().height - 75 ) + "px" )
             .style("overflow-y", "scroll")
             .style("padding-bottom", "10px")
         ;
