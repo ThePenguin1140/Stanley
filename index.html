@@ -105,9 +105,8 @@
 </button>
 
 <script>
-    d3.json("dataset.json", arcDiagram);
     document.getElementById("teamRoster").setAttribute("style", "height: " +
-    String( screen.height - 450 ) + "px; overflow-y: scroll;" );
+    String( window.innerHeight - 310 ) + "px; overflow-y: scroll;" );
 
     var xhr = new XMLHttpRequest();
     xhr.open('GET', 'legend.html', true);
@@ -122,6 +121,11 @@
         document.getElementById("teamRoster").innerHTML = this.responseText;
     };
     xhr.send();
+
+    var width = window.innerWidth;
+    var height = window.innerHeight;
+
+    d3.json("dataset.json", init);
 
 </script>
 </body>

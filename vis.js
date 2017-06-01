@@ -1,38 +1,44 @@
-var width   = screen.width,
-    height  = screen.height,
-    margin  = 20,
+var margin  = 20,
     pad     = margin / 2,
     radius  = 30,
     yfixed  = pad + radius + 20;
 
-var color = d3.scaleOrdinal([0,10]);
-var timeScale = d3.scaleTime()
-    .domain([
-        new Date(2000, 0, 1),
-        new Date(2020, 0 ,1)
-    ])
-    .range([radius * 2, width - margin ]);
-var axis = d3.axisTop(timeScale)
-    .tickSize([10]);
+var color, axis, arc, arcs, selectedTeam, selectedPlayer, hoverSelectionTeam, t, fast_t;
 
 
-var arc = d3.arc()
-    .startAngle(1.5708)
-    .endAngle( 4.71239 );
+function init( data ) {
 
-var selectedTeam = null;
-var selectedPlayer = null;
-var hoverSelectionTeam = null;
-var arcs;
+    color = d3.scaleOrdinal([0,10]);
+    timeScale = d3.scaleTime()
+        .domain([
+            new Date(2000, 0, 1),
+            new Date(2020, 0 ,1)
+        ])
+        .range([radius * 2, width - margin ]);
+    axis = d3.axisTop(timeScale)
+        .tickSize([10]);
 
-var t = d3.transition()
-    .duration(500)
-    .ease(d3.easeLinear);
 
-var fast_t = d3.transition()
-    .duration(250)
-    .ease(d3.easeLinear)
-    ;
+    arc = d3.arc()
+        .startAngle(1.5708)
+        .endAngle( 4.71239 );
+
+    selectedTeam = null;
+    selectedPlayer = null;
+    hoverSelectionTeam = null;
+    arcs;
+
+    t = d3.transition()
+        .duration(500)
+        .ease(d3.easeLinear);
+
+    fast_t = d3.transition()
+        .duration(250)
+        .ease(d3.easeLinear)
+        ;
+
+    arcDiagram(data);
+}
 
 // Main
 //-----------------------------------------------------
@@ -140,7 +146,7 @@ function arcDiagram(graph) {
 
         d3.select("#teamRoster")
             .style('height',
-            String( screen.height - d3.select('#infoPanel>div').node().getBoundingClientRect().height - 75 ) + "px" )
+            String( height + 20 - d3.select('#infoPanel>div').node().getBoundingClientRect().height ) + "px" )
             .style("overflow-y", "scroll")
             .style("padding-bottom", "10px")
         ;
@@ -349,7 +355,6 @@ function drawLinks(links) {
 }
 
 toggleLengend = function () {
-    console.log(xhr);
     if (selectedTeam) {
         var button = d3.select("button");
         button.classed("active", !button.classed("active"));
