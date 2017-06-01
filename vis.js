@@ -1,4 +1,3 @@
-
 var width   = screen.width,
     height  = screen.height,
     margin  = 20,
@@ -39,7 +38,6 @@ var fast_t = d3.transition()
 //-----------------------------------------------------
 
 function arcDiagram(graph) {
-
     var svg = d3.select("#chart").append("svg")
         .attr("id", "arc")
         .attr("width", width)
@@ -78,7 +76,7 @@ function arcDiagram(graph) {
 
     gNodes.on('click', function( d ) {
 
-
+        d3.select("button").classed("active", false);
 
         var old = d3.selectAll('.'+selectedTeam);
         if( old ) {
@@ -349,3 +347,35 @@ function drawLinks(links) {
 
     return gLinks;
 }
+
+toggleLengend = function () {
+    console.log(xhr);
+    if (selectedTeam) {
+        var button = d3.select("button");
+        button.classed("active", !button.classed("active"));
+        xhr.open('GET', 'legend.html', true);
+        xhr.send();
+
+        var old = d3.selectAll('.' + selectedTeam);
+        if (old) {
+            old.interrupt();
+            old.transition(fast_t)
+                .style("stroke", "rgb(167, 174, 180)")
+                .style("stroke-width", 2)
+            ;
+        }
+
+        selectedTeam = null;
+
+        if (arcs) {
+            arcs.transition(fast_t)
+                .style("stroke", "#888888")
+                .style("stroke-width", 1)
+                .style("stroke-opacity", 0.5)
+            ;
+        }
+
+        arcs = null;
+
+    }
+};

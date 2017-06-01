@@ -95,31 +95,34 @@
     <div class="ui row divider" style="margin: 0px"></div>
     <div id="rosterContainer" class="ui container">
         <div id="teamRoster" class="ui middle aligned selection animated list" >
-            <div class="column" style="padding: 10px;">
-                <span>
-                Stanley is a visualization of past Stanley Cup champions and the player relations between these winning teams.
-                Using the mouse, you can pan and zoom the axis and select teams.
-                Selecting a team will highlight the node in red and the arcs of the players in black that team shares with other Stanley Cup winning teams.
-                </span>
-                <br>
-                <img src="SelectedNode.png" height="138" />
-                <br>
-                This side panel will show information on the selected team such as the logo, name, win years and the winning roster for the selected year.
-                <br>
-                <img src="SidePanel.png" height="319"/>
-                <br>
-                You can hover over players in the roster to see their arcs highlighted in the diagram.
-                You can re-open this help panel any time by clicking on the 'Legend' button in the bottom left corner.
-                <br>
-            </div>
         </div>
     </div>
 </div>
+
+<button class="ui active button" style="position: fixed; margin: 10px; bottom: 0; left: 0;" onclick="toggleLengend()">
+    <i class="info icon"></i>
+    Legend
+</button>
 
 <script>
     d3.json("dataset.json", arcDiagram);
     document.getElementById("teamRoster").setAttribute("style", "height: " +
     String( screen.height - 450 ) + "px; overflow-y: scroll;" );
+
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', 'legend.html', true);
+    xhr.onreadystatechange = function () {
+
+        document.getElementById("teamLogo").setAttribute("src", "https://upload.wikimedia.org/wikipedia/en/4/4b/2008StanleyCupFinals.png");
+        document.getElementById("teamName").innerText = "The Stanley Diagram";
+        document.getElementById("winYear").innerHTML = "";
+
+        if( this.readyState !== 4 ) return;
+        if( this.status !== 200 ) return;
+        document.getElementById("teamRoster").innerHTML = this.responseText;
+    };
+    xhr.send();
+
 </script>
 </body>
 </html>
